@@ -6,7 +6,7 @@ from mainapp.views import *
 urlpatterns = [
     path('', index, name='index'),
     path('register/', register, name='register'),
-    path('login/', login, name='login'),
+    path('login/', login_, name='login'),
     path('forgot_password/', forgot_password, name='forgot_password'),
     path('search-result/', search_result, name='search_result'),
     path('become-a-stocklist/', become_a_stocklist, name='become_a_stocklist'),

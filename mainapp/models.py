@@ -27,14 +27,15 @@ class UserProfileModel(AbstractUser):
 
 
 class CompanyModel(models.Model):
-    company_name = models.CharField(max_length=255),
-    company_number = models.CharField(max_length=12),
-    company_type = models.CharField(max_length=128),
-    address = models.CharField(max_length=512),
-    city = models.CharField(max_length=128),
-    country = models.CharField(max_length=128),
+    company_name = models.CharField(max_length=255)
+    company_number = models.CharField(max_length=12)
+    company_type = models.CharField(max_length=128)
+    address = models.CharField(max_length=512)
+    city = models.CharField(max_length=128)
+    country = models.CharField(max_length=128)
     post_code = models.CharField(max_length=128)
     owner = models.ForeignKey(UserProfileModel, on_delete=models.CASCADE)
+    title = models.CharField(max_length=1256)
 
 
 class NewsModel(models.Model):
