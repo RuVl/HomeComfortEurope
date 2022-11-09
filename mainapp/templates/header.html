@@ -6,14 +6,15 @@
             <a href="{% url 'index' %}"><img src="{% static 'mainapp/images/logo.png' %}" alt="logo"></a>
         </div>
 
-<!-- Top links -->
+        <!-- Top links -->
         <div class="topSection">
             <ul class="top-links">
                 <li><a href="{% url 'about_us' %}" title="About Us">About Us</a></li>
                 <li><a href="{% url 'news' %}" title="News">News</a></li>
-                
-<!-- Login form -->
-                <li class="account"><a href="javascript:void(0);">Login</a><a href="javascript:void(0);" class="mob-account"><img src="{% static 'mainapp/images/profile.png' %}" alt="profile"></a>
+
+                <!-- Login form -->
+                <li class="account"><a href="javascript:void(0);">Login</a><a href="javascript:void(0);" class="mob-account"><img
+                        src="{% static 'mainapp/images/profile.png' %}" alt="profile"></a>
                     <div class="submenu-Div dropdownL login">
                         <i class="fa fa-caret-up" aria-hidden="true"></i>
                         <form class="loginForm" name="frmLogin" id="loginForm" action="{% url 'login' %}" method="post">
@@ -33,14 +34,15 @@
                         </form>
                     </div>
                 </li>
-                
-<!-- Search -->
+
+                <!-- Search -->
                 <li class="srchWrp">
                     <a href="javascript:void(0)" class="srch"><span>Search</span><i class="fa fa-search" aria-hidden="true"></i></a>
-                    <a href="javascript:void(0)" class="srch mob-account"><span>Search</span><img src="{% static 'mainapp/images/search.png' %}" alt="Search"></a>
+                    <a href="javascript:void(0)" class="srch mob-account"><span>Search</span><img src="{% static 'mainapp/images/search.png' %}"
+                                                                                                  alt="Search"></a>
                     <form name="frmSearchResult" action="{% url 'search_result' %}" method="post">
                         {% csrf_token %}
-		                <span class="search-field">
+                        <span class="search-field">
                            <input type="text" name="txtSearch" id="txtSearch" placeholder="Search"/>
                             <a href="javascript:void(0)" class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
                         </span>
@@ -49,10 +51,10 @@
             </ul>
         </div>
         <nav>
-{# MAIN categories #}
+            {# MAIN categories #}
             <ul class="navigation dropdown">
                 <li><a href="{% url 'index' %}">Home</a></li>
-{# ALL categories #}
+                {# ALL categories #}
                 <li class="mob-collection bg">
                     <a href="#">Collections</a>
                     <ul class="submenu">
@@ -61,86 +63,93 @@
                                 margin-left: 112px;
                                 top: 0 !important;
                                 display: block;
-                                width:500px;
+                                width: 500px;
                                 padding: 10px;
                                 min-height: 200px;
                             }
-            
+
                             .rangesSubMenu > .leftList {
-                                width:60%;float:left;
+                                width: 60%;
+                                float: left;
                             }
-            
+
                             .rangeImageContainer {
-                                width:40%;float: right;
-                                display:none;
+                                width: 40%;
+                                float: right;
+                                display: none;
                                 min-height: 200px;
                             }
-            
+
                             .rangeImg {
-                                width:200px;
+                                width: 200px;
                                 margin-bottom: 0;
-                                height:200px;
-            
+                                height: 200px;
+
                             }
-            
+
                             .rangeTitle {
-                                background-color: #989b9e; margin-top: -6px;padding: 5px;width:190px;
+                                background-color: #989b9e;
+                                margin-top: -6px;
+                                padding: 5px;
+                                width: 190px;
                             }
-            
+
                             .rangeTitleText {
-                    width:100%;text-align:  center;color: #fff;
-                }
+                                width: 100%;
+                                text-align: center;
+                                color: #fff;
+                            }
                         </style>
                         {% for category in links_menu.collections %}
-                        <li>
-                            <a href="{% url "collection" category.pk %}" title="{{ category.name }}">{{ category.name }}</a>
-                            <ul class="submenu rangesSubMenu">
-                                <div class="leftList">
-                                    <ul>
-                                        {% for subcategory in links_menu.types %}
-                                            {% if subcategory.category.pk == category.pk %}
-                                                <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory.pk }}">
-                                            <a href="{% url "type" category.pk %}"><small>{{ subcategory.name }}</small></a>
-                                        </li>
-                                             {% endif %}
-                                        {% endfor %}
-                                    </ul>
-                                </div>
+                            <li>
+                                <a href="{% url "collection" category.pk %}" title="{{ category.name }}">{{ category.name }}</a>
+                                <ul class="submenu rangesSubMenu">
+                                    <div class="leftList">
+                                        <ul>
+                                            {% for subcategory in links_menu.types %}
+                                                {% if subcategory.category.pk == category.pk %}
+                                                    <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory.pk }}">
+                                                        <a href="{% url "type" category.pk %}"><small>{{ subcategory.name }}</small></a>
+                                                    </li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
 
-                                {% for subcategory in category %}
-                                    {% if subcategory.category.pk == category.pk %}
-                                        <div class="rangeImageContainer" id="cat_{{ subcategory.pk }}" data-order="2_0">
-                                    <a href="{% url "type" category.pk %}">
-                                        <img src="/media/{{ subcategory.image }}" class="rangeImg">
-                                        <div class="rangeTitle">
-                                            <p class="rangeTitleText">{{ subcategory.name }}</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                    {% endif %}
+                                    {% for type in types %}
+                                        {% if type.category.pk == category.pk %}
+                                            <div class="rangeImageContainer" id="cat_{{ type.pk }}" data-order="2_0">
+                                                <a href="{% url "type" category.pk %}">
+                                                    <img src="/media/{{ type.image }}" class="rangeImg">
+                                                    <div class="rangeTitle">
+                                                        <p class="rangeTitleText">{{ type.name }}</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        {% endif %}
 
-                                {% endfor %}
-                            </ul>
-                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
                         {% endfor %}
                     </ul>
                 </li>
-{# Subcategories #}
-            {% for category in categories %}
-
+                {# Subcategories #}
+                {% for category in categories %}
                     <li class="mob-collection bg">
-                    <a href="{% url "collection" category.pk %}">{{ category.name }}</a>
-                    <ul class="submenu">
-                        {% for subcategory in category %}
-                            {% if subcategory.category.pk == category.pk %}
-                                <li><a href="{% url "type" subcategory.pk %}" title="{{ subcategory.name }}">{{ subcategory.name }}</a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
+                        <a href="{% url "collection" category.pk %}">{{ category.name }}</a>
+                        <ul class="submenu">
+                            {% for subcategory in category %}
+                                {% if subcategory.category.pk == category.pk %}
+                                    <li><a href="{% url "type" subcategory.pk %}" title="{{ subcategory.name }}">{{ subcategory.name }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
                     </li>
-
-
-            {% endfor %}
+                {% endfor %}
+                <li><a href="{% url 'ethos' %}">Ethos</a></li>
+                <li><a href="{% url 'design_studio' %}">Design Studio</a></li>
+                <li><a href="{% url 'fulfilment' %}">Fulfilment</a></li>
             </ul>
             <a class="mob-menu" href="javascript:void(0)">
                 <span class="one"></span>
