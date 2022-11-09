@@ -33,6 +33,7 @@ def get_product(request, pk):
     }
     return render(request, 'product.html', context=context)
 
+
 def index(request):
     context = {
         'title': 'Heritage Furniture - Design For Living',
