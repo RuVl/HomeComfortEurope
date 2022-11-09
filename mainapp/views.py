@@ -161,8 +161,7 @@ def news(request):
     return render(request, 'news.html', context=context)
 
 
-# Complete
-def concrete_news(request, concrete: str):
+def concrete_news(request, news: str):
     context = {
                   'title': concrete.replace('_', ' '),
                   'links_menu': get_collections_menu()

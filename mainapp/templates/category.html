@@ -1,0 +1,166 @@
+{% extends 'for_content.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="breadcrum">
+        <ul>
+            <li><a href="{% url 'index' %}">Home |</a></li>
+            <li class="active"><a href="{{ category url }}">{{ category name }}</a></li>
+        </ul>
+    </div>
+    <div id="frmProdListings">
+        <div class="elegent innerPageElegent bedroom">
+            <div class="leftImg">
+                <img src="{{ category image }}" alt="" height="300" width="300">
+            </div>
+            <div class="rightTxt">
+                <div class="innerTxt">
+                    <h1><br>{{ category name }}</h1>
+                    <h4>{{ category description }}</h4>
+                </div>
+            </div>
+        </div>
+        <ul class="right-left-list">
+            {% for subcategory in category.... %}
+            <li>
+                <a href="{{ subcategory url }}">
+                    <div class="imgleft"><img src="{{ subcategory image }}" width="800" height="800" alt=""></div>
+                    <div class="textRight">
+                        <h2>{{ subcategory name }}</h2>
+                        <p>{{ subcategory description }}</p>
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <style>
+            .design-derection {
+                display: none;
+            }
+
+            .design-derection:nth-child(-n+3) {
+                display: block;
+            }
+
+            .design-derection:nth-child(-n+4) {
+                display: block;
+            }
+        </style>
+        <script type="text/javascript">
+            $(".view-more").click(function (e) {
+                $(".design-derection:visible").last().next().show("slow");
+
+                if ($(".design-derection:hidden").size() === 0) {
+                    $("#loadMoreRanges").hide();
+                }
+
+            });
+            $(function () {
+                if ($(".design-derection:hidden").size() === 0) {
+                    $("#loadMoreRanges").hide();
+                }
+            });
+        </script>
+    </div>
+    <div class="brochure-download footer-brochure">
+        <style>
+            #fade {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                z-index: 1001;
+                -moz-opacity: 0.8;
+                opacity: .80;
+                filter: alpha(opacity=80);
+            }
+
+            #video {
+                display: none;
+                position: absolute;
+                /*top: 50%;*/
+                left: 50%;
+                max-width: 1200px;
+                max-height: 680px;
+                margin-left: -600px;
+                margin-top: -180px;
+                border: 2px solid #FFF;
+                background: #FFF;
+                z-index: 1002;
+                overflow: visible;
+            }
+
+            #boxclose {
+                float: right;
+                cursor: pointer;
+                color: #fff;
+                border: 1px solid #AEAEAE;
+                border-radius: 3px;
+                background: #222222;
+                font-size: 31px;
+                font-weight: bold;
+                display: inline-block;
+                line-height: 0;
+                padding: 11px 3px;
+                position: absolute;
+                right: 2px;
+                top: 2px;
+                z-index: 1002;
+                opacity: 0.9;
+            }
+
+            .boxclose:before {
+                content: "×";
+            }
+
+            #fade:hover ~ #boxclose {
+                display: none;
+            }
+
+        </style>
+
+        <div id="video">
+            <a class="boxclose" id="boxclose" onclick="videobox_close();"></a>
+            <video id="VisaChipCardVideo" width="1200" controls="">
+                <source src="{% static 'mainapp/video/FINAL_Promo_heritage.mp4' %}" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="fade" onclick="videobox_close();"></div>
+        <ul>
+            <li><a href="#video" onclick="videobox_open();">
+                <div class="imgTop"><img src="{% static 'mainapp/images/Video-image-569x117-original.jpg' %}" alt="background">
+                    <div class="top-Text brocher">
+                        <div class="book">
+                            <img src="{% static 'mainapp/images/play-button.png' %}" alt="play">
+                        </div>
+                        <div class="tagN">
+                            <h3>NEW WEBSITE FEATURES</h3>
+                            <h1>WATCH</h1>
+                        </div>
+                    </div>
+                </div>
+            </a></li>
+            <li>
+                <a href="#">
+                    <div class="imgTop"><img src="{% static 'mainapp/images/HF-Website-Visuals-30.jpg' %}" alt="background">
+                        <div class="top-Text brocher">
+                            <div class="book">
+                                <img src="{% static 'mainapp/images/book.png' %}" alt="book">
+                            </div>
+                            <div class="tagN">
+                                <h3>Download</h3>
+                                <h1>Brochures</h1>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

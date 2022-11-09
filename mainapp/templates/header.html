@@ -51,12 +51,10 @@
             </ul>
         </div>
         <nav>
-{# MAIN categories #}
             <ul class="navigation dropdown">
                 <li><a href="{% url 'index' %}">Home</a></li>
-{# ALL categories #}
                 <li class="mob-collection bg">
-                    <a href="#">Collections</a>
+                    <a href="https://www.heritagefurnitureuk.com/furniture-collection.php?c=OA==-8">Collections</a>
                     <ul class="submenu">
                         <style>
                             .rangesSubMenu {
@@ -93,15 +91,15 @@
                     width:100%;text-align:  center;color: #fff;
                 }
                         </style>
-                        {% for collection in collections_menu %}
+                        {% for category in categories %}
                         <li>
-                            <a href="{% url 'collection' collection.pk %}" title="{{ collection.name }}">{{ collection.name }}</a>
+                            <a href="{{ category url }}" title="{{ category name }}">{{ category name }}</a>
                             <ul class="submenu rangesSubMenu">
                                 <div class="leftList">
                                     <ul>
-                                        {% for subcategory in subcategory_meny %}
-                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_{{  subcategory.pk }}">
-                                            <a href="{% url 'subcategory' subcategory.pk %}"><small>{{  subcategory.name }}</small></a>
+                                        {% for subcategory in category.... %}
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory id }}">
+                                            <a href="{{ subcategory url }}"><small>{{ subcategory name }}</small></a>
                                         </li>
                                         {% endfor %}
                                     </ul>
