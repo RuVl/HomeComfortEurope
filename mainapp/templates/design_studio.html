@@ -1,0 +1,269 @@
+{% extends 'for_content.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+
+  	.content {
+  		margin-bottom: 0px !important;
+  	}
+
+  	.fBannerStatic {
+  		position: relative;
+  		margin-top: 3%;
+  	}
+
+	.fBannerStatic img {
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	}
+
+	.fBannerStatic>.fCaption {
+	  position: absolute;
+	  top: 35%;
+	  left: 10%;
+	  width: 80%;
+	  max-height: 70%;
+	  background: #464e52;
+	  opacity: 0.8;
+	}
+
+	.fBannerStatic>.fCaption>h1,
+	.fBannerStatic>.fCaption>h2 {
+	  text-align: center;
+	  padding: 10px;
+	  padding: 30px 30px 0px 30px;
+	}
+
+
+	.fBannerStatic>.fCaption>h2 {
+	  font-size: 2.5vw;
+	  color: #fff;
+	  font-family: 'didotregular';
+	  letter-spacing: 0px;
+	}
+
+	.fBannerStatic>.fCaption>p {
+	  color: #fff;
+	  text-align: center;
+	  padding-bottom: 30px;
+	  padding-left: 10%;
+	  padding-right: 10%;
+	  height: 100%;
+	  font-size: 16px;
+
+	}
+
+	.fBannerStatic>.fCaption>ul {
+		color: #fff;
+	    margin-left: 5%;
+	    padding-bottom: 40px;
+	    font-size: 16px;
+	}
+
+	@media only screen  and (max-width:1550px){
+		.fBannerStatic>.fCaption {
+			top: 20% !important;
+		}
+	}
+
+	@media only screen  and (max-width:890px){
+
+		.fBannerStatic img {
+			height: 450px !important;
+		}
+
+		.fBannerStatic>.fCaption {
+			top: 20% !important;
+		    left: 0 !important;
+		    width: 100% !important;
+			max-height: 80%;
+			height: auto;
+		}
+
+		.fBannerStatic>.fCaption>p {
+			font-size: 1.5vh !important;
+			text-overflow: hidden;
+		}
+
+		.fBannerStatic>.fCaption>h2 {
+		  font-size: 1.5vh !important;
+		  color: #fff;
+		  font-family: 'filsonproregular' !important;
+		  letter-spacing: 0px;
+		}
+
+	}
+
+
+	.bannerStatic {
+	  position: relative;
+	}
+
+	.bannerStatic img {
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	}
+
+	.bannerStatic>.bannerHeader {
+	  position: absolute;
+	  top: 20%;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.bannerStatic>.bannerHeader>h1 {
+	  font-size: 5vw;
+	  color: #9e8f6c;
+	  font-family: 'didotregular';
+      letter-spacing: 0px;
+      text-shadow: 1px 1px #000;
+	}
+
+	.bannerStatic>.caption {
+	  position: absolute;
+	  top: 35%;
+	  left: 25%;
+	  width: 50%;
+	  max-height: 70%;
+	  background: #464e52;
+	  opacity: 0.9;
+	}
+
+	@media only screen  and (max-width:1010px){
+
+		.bannerStatic img {
+			height: 550px !important;
+		}
+
+		.bannerStatic>.bannerHeader {
+			top: 10% !important;
+		}
+
+		.bannerStatic>.caption {
+			top: 20% !important;
+		    left: 0 !important;
+		    width: 100% !important;
+			max-height: 80%;
+			height: auto;
+		}
+
+		.bannerStatic>.caption>p {
+			font-size: 1.5vh !important;
+			text-overflow: hidden;
+		}
+
+		.bannerStatic>.caption>h2 {
+		  font-size: 1.5vh !important;
+		  color: #fff;
+		  font-family: 'filsonproregular' !important;
+		  letter-spacing: 0px;
+		}
+
+	}
+
+	@media only screen  and (max-width:400px){
+
+		.bannerStatic img {
+			height: 600px !important;
+		}
+
+	}
+
+	.bannerStatic>.caption>h1,
+	.bannerStatic>.caption>h2 {
+	  text-align: center;
+	  padding: 10px;
+	}
+
+
+	.bannerStatic>.caption>h2 {
+	  font-size: 2.5vw;
+	  color: #fff;
+	  font-family: 'didotregular';
+	  letter-spacing: 0px;
+	}
+
+	.bannerStatic>.caption>p {
+	  color: #fff;
+	  text-align: center;
+	  padding-bottom: 20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	  height: 100%;
+	  font-size: 16px;
+	}
+
+
+	.small-content > p {
+	    font-size: 2vh;
+	    text-align: center;
+	    line-height: 20px;
+	    padding: 20px;
+	}
+
+</style>
+
+<div class="container">
+
+<div class="first-content">
+
+<div class="left-content">
+
+<h1>A VISIONARY DESIGN
+TEAM THAT GOES
+THE EXTRA MILE</h1>
+
+<div class="small-content">
+
+<p>Collaborating with a pool of exceptional designers
+that come armed with years of experience in the
+furniture trade, our studio generates a wealth of
+ideas -- from streamlined Scandinavian angles
+and simple Shaker lines to elegant country-house
+curves. Exploring colour palettes, wood textures,
+varnishes, and wax finishes, we ensure that every
+piece of furniture we make meets the needs of
+our customers, whether they’re seeking modern
+and minimalist, Nordic inspired, or something a
+little out of the ordinary.</p>
+</div>
+
+</div>
+
+<div class="right-content">
+  <img src="{% static 'mainapp/images/Design-Small-Image.jpg' %}" alt="image">
+</div>
+
+<div class="clear"></div>
+<div class="design-derection">
+<div class="product-details">
+    <h1>SHOP THE COLLECTIONS OR ORDER BESPOKE</h1>
+    <p>
+Why do major retailers, hospitality and corporate businesses work directly with our studio? Because Heritage
+Furniture delivers bespoke collections that always meet the client’s brief -- on time and on budget. Our pool
+of international manufacturers bring designs to life. Through prototyping we ensure the collections we create
+fits the client’s style, vision and market requirements. From chic, sleek, and the latest trends in vogue, talk to
+our corporate team and discover what we can do for you.
+    </p>
+  </div>
+</div>
+</div>
+
+</div>
+<div class="fBannerStatic">
+<img src="{% static 'mainapp/images/Design-Bottom-Image.jpg' %}" alt="">
+
+<div class="fCaption">
+  <h2>OUR DESIGN STUDIO</h2>
+    <ul>
+    <li>Drafts furniture blueprints in-line with client vision.</li>
+    <li>Helps clients select materials in-line with your budgets that is best suited to each collection.</li>
+    <li>Enables clients to explore colour palettes and variable finishes.</li>
+    <li>Crafts entire collection, utilising our skilled pool of manufacturers.</li>
+    </ul>
+</div>
+</div>
+{% endblock %}

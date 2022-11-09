@@ -74,7 +74,8 @@ def valid(data: dict):
 def register(request):
     if request.method == 'GET':
         context = {
-                      'title': 'Register'
+                      'title': 'Register',
+                      'links_menu': get_header(),
                   } | main_context
 
         return render(request, 'register.html', context=context)
@@ -83,6 +84,7 @@ def register(request):
             print("Not Valid")
             context = {
                           'title': 'Register',
+                          'links_menu': get_header(),
                           'not_valid': 'true'
                       } | main_context
 
@@ -125,7 +127,8 @@ def register(request):
 def login_(request):
     if request.method == 'GET':
         context = {
-                      'title': 'Existing Trade Customers Login'
+                      'title': 'Existing Trade Customers Login',
+                      'links_menu': get_header(),
                   } | main_context
 
         return render(request, 'register.html', context=context)
