@@ -93,15 +93,15 @@
                     width:100%;text-align:  center;color: #fff;
                 }
                         </style>
-                        {% for category in categories %}
+                        {% for collection in collections_menu %}
                         <li>
-                            <a href="{{ category url }}" title="{{ category name }}">{{ category name }}</a>
+                            <a href="{% url 'collection' collection.pk %}" title="{{ collection.name }}">{{ collection.name }}</a>
                             <ul class="submenu rangesSubMenu">
                                 <div class="leftList">
                                     <ul>
-                                        {% for subcategory in category.... %}
-                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory id }}">
-                                            <a href="{{ subcategory url }}"><small>{{ subcategory name }}</small></a>
+                                        {% for subcategory in subcategory_meny %}
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_{{  subcategory.pk }}">
+                                            <a href="{% url 'subcategory' subcategory.pk %}"><small>{{  subcategory.name }}</small></a>
                                         </li>
                                         {% endfor %}
                                     </ul>
