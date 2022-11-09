@@ -86,6 +86,7 @@ class ProductItem(models.Model):
     weight = models.CharField(max_length=128)
     type = models.ForeignKey(ProductType, on_delete=models.CASCADE)
     material = models.CharField(max_length=256, blank=True)
+    description = models.CharField(max_length=512, blank=True)
 
     def __str__(self):
         return self.name

@@ -6,8 +6,8 @@
         <div class="breadcrum">
             <ul>
                 <li><a href="{% url 'index' %}">Home |</a></li>
-                <li><a href="{{ category url }}">{{ category name }} | </a></li>
-                <li class="active"><a href="{{ product url }}">{{ product name }}</a></li>
+                <li><a href="{{ category url }}">{{ type.name }} | </a></li>
+                <li class="active"><a href="{%url "product" product.pk %}">{{ product.name }}</a></li>
             </ul>
         </div>
 
@@ -16,8 +16,8 @@
                 <div class="productdetailmobileshow"><h1>4 Drawer Wide Chest</h1></div>
                 <div class="left-Img">
                     <div class="imgSection">
-                        <a href="{{ product image }}" id="product">
-                            <img src="{{ product image }}">
+                        <a href="/media/{{ product.image }}" id="product">
+                            <img src="/media/{{ product.image }}">
                         </a>
                         <i class="fa fa-search-plus" aria-hidden="true"></i>
                         <script type="text/javascript">
@@ -30,29 +30,29 @@
                     </div>
                 </div>
                 <div class="right-description">
-                    <h1>{{ product name }}</h1>
+                    <h1>{{ product.name }}</h1>
                     <div class="detail-table">
                         <table cellpadding="0" cellspacing="0">
                             <tbody>
                             <tr>
                                 <td>Product Code</td>
-                                <td>{{ product code }}</td>
+                                <td>{{ product.product_code }}</td>
                             </tr>
                             <tr>
                                 <td>Material</td>
-                                <td>{{ product material }}</td>
+                                <td>{{ product.material }}</td>
                             </tr>
                             <tr>
                                 <td>Size</td>
-                                <td>{{ product size }}</td>
+                                <td>{{ product.size }}</td>
                             </tr>
                             <tr>
                                 <td>Availability</td>
-                                <td>{{ product avaibility }}</td>
+                                <td>{{ product.availability }}</td>
                             </tr>
                             <tr>
                                 <td>Weight</td>
-                                <td>{{ product weight }}</td>
+                                <td>{{ product.weight }}</td>
                             </tr>
                             </tbody>
                         </table>
@@ -68,7 +68,7 @@
                 </ul>
                 <div class="description-list ui-tabs-panel ui-corner-bottom ui-widget-content" id="tabs-1" aria-labelledby="ui-id-1" role="tabpanel"
                      aria-hidden="false">
-                    <div class="leftDiv">{{ product description }}</div>
+{#                    <div class="leftDiv">{{ product desciption }}</div>#}
                     <div class="clear"></div>
                 </div>
             </div>

@@ -6,29 +6,29 @@
     <div class="breadcrum">
         <ul>
             <li><a href="{% url 'index' %}">Home |</a></li>
-            <li class="active"><a href="{{ category url }}">{{ category name }}</a></li>
+            <li class="active"><a href="{% url 'collections' collection.pk %}">{{ collection.name }}</a></li>
         </ul>
     </div>
     <div id="frmProdListings">
         <div class="elegent innerPageElegent bedroom">
             <div class="leftImg">
-                <img src="{{ category image }}" alt="" height="300" width="300">
+                <img src="/media/{{ collection.image }}" alt="" height="300" width="300">
             </div>
             <div class="rightTxt">
                 <div class="innerTxt">
-                    <h1><br>{{ category name }}</h1>
-                    <h4>{{ category description }}</h4>
+                    <h1><br>{{ collection.name }}</h1>
+                    <h4>{{ collection.description }}</h4>
                 </div>
             </div>
         </div>
         <ul class="right-left-list">
-            {% for subcategory in category.... %}
+            {% for subcategory in types %}
             <li>
-                <a href="{{ subcategory url }}">
-                    <div class="imgleft"><img src="{{ subcategory image }}" width="800" height="800" alt=""></div>
+                <a href="{% url "type" subcategory.pk %}">
+                    <div class="imgleft"><img src="/media/{{ subcategory.image }}" width="800" height="800" alt=""></div>
                     <div class="textRight">
-                        <h2>{{ subcategory name }}</h2>
-                        <p>{{ subcategory description }}</p>
+                        <h2>{{ subcategory.name }}</h2>
+                        <p>{{ subcategory.description }}</p>
                     </div>
                 </a>
             </li>

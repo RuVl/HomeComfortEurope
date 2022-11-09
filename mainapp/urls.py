@@ -16,5 +16,8 @@ urlpatterns = [
     path('fulfilment/', fulfilment, name='fulfilment'),
     path('privacy-policy/', privacy_policy, name='privacy_policy'),
     path('cookies/', cookies, name='cookies'),
-    path('product/<int:pk>', get_product, name='product')
+    path('product/<int:pk>', get_product, name='product'),
+    path('type/<int:pk>', get_products_sorted_by_type, name='type'),
+    path('collection/<int:pk>', get_types_sorted_by_collections, name='collection')
+    # path('types/' )
 ]

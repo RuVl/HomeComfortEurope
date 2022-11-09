@@ -8,21 +8,21 @@
             <ul>
                 <li><a href="{% url 'index' %}">Home |</a></li>
                 <li>
-                    <a href="{{ category url }}">{{ category name }} | </a>
+                    <a href="{{ category url }}">{{ collection.name}} | </a>
                 </li>
                 <li class="active">
-                    <a href="{{ subcategory url }}">{{ subcategory name }} </a>
+                    <a href="{% url "type" type.pk %}">{{ type.name }} </a>
                 </li>
             </ul>
         </div>
-        <h3>{{ subcategory name }}</h3>
+        <h3>{{ type.name }}</h3>
     </div>
 </div>
 
 <div class="container">
     <div id="frmProdListings">
         <div class="design-derection">
-            <p>{{ subcategory description }}</p>
+            <p>{{ type.description }}</p>
         </div>
         <div class="product-Range bed-product">
             <style>
@@ -31,15 +31,15 @@
                 }
             </style>
             <ul class="product-range-list" id="myList">
-                {% for product in subcategory.... %}
+                {% for product in products %}
                 <li class="show">
                     <div class="imgSection">
-                        <a href="{{ product image }}">
-                            <img src="{{ product image }}" alt="{{ product name }}">
+                        <a href="/media/{{ product.image }}">
+                            <img src="/media/{{ product.image }}" alt="{{ product.name }}">
                         </a>
                     </div>
                     <div class="textSection">
-                        <h4><a href="{{ product url }}">{{ product name }}</a></h4>
+                        <h4><a href="{% url "product" product.pk %}">{{ product.name }}</a></h4>
                     </div>
                 </li>
                 {% endfor %}

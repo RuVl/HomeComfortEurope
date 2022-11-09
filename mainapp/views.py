@@ -8,25 +8,33 @@ from .models import UserProfileModel, CompanyModel, CollectionModel, ProductType
 main_context = {}
 
 
-def get_collections_menu():
-    collections_menu = CollectionModel.objects.all()
-    return collections_menu
+def get_header():
+    collections = CollectionModel.objects.all()
+    types = ProductType.objects.all()
+    header = {'collections': collections, 'types': types}
+    return header
 
 
-def get_types_sorted_by_collections(pk):
+def get_types_sorted_by_collections(request, pk):
     product_types_menu = ProductType.objects.filter(collection=pk)
-    context = {}
+    context = {
+        'title': 'Heritage Furniture - Design For Living',
+        'links_menu': get_header(),
+        'types': ProductType.objects.filter(collection=pk),
+        'collection': CollectionModel.objects.get(collection=pk)
+    }
 
-    return product_types_menu
+    return render(request, 'category.html', context=context)
 
 
 def get_products_sorted_by_type(request, pk):
     products_sorted_by_types = ProductItem.objects.filter(type=pk)
     context = {
         'title': 'Heritage Furniture - Design For Living',
-        'links_menu': get_collections_menu(),
+        'links_menu': get_header(),
         'products': products_sorted_by_types,
-        'collections': ProductType.objects.get(type=pk).collection
+        'type': ProductType.objects.get(pk=pk),
+        'collection': ProductType.objects.get(type=pk).collection
     }
     return render(request, 'subcategory.html', context=context)
 
@@ -35,7 +43,7 @@ def get_product(request, pk):
     product = ProductItem.objects.get(pk=pk)
     context = {
         'title': 'Heritage Furniture - Design For Living',
-        'links_menu': get_collections_menu(),
+        'links_menu': get_header(),
         'product': product,
         'type': product.objects.get(type=product.type)
     }
@@ -45,7 +53,7 @@ def get_product(request, pk):
 def index(request):
     context = {
         'title': 'Heritage Furniture - Design For Living',
-        'links_menu': get_collections_menu(),
+        'links_menu': get_header(),
         # 'subcategory_meny': get_types_sorted_by_collections()
     } | main_context
 
@@ -134,7 +142,7 @@ def login_(request):
 def search_result(request):
     context = {
         'title': 'Search result',
-        'links_menu': get_collections_menu()
+        'links_menu': get_header()
     } | main_context
     return render(request, 'search_result.html', context=context)
 
@@ -143,7 +151,7 @@ def search_result(request):
 def news(request):
     context = {
         'title': 'News',
-        'links_menu': get_collections_menu()
+        'links_menu': get_header()
     } | main_context
 
     return render(request, 'news.html', context=context)
@@ -153,7 +161,7 @@ def news(request):
 def concrete_news(request, concrete: str):
     context = {
                   'title': concrete.replace('_', ' '),
-                  'links_menu': get_collections_menu()
+                  'links_menu': get_header()
               } | main_context
 
     return render(request, f'news/{concrete}.html', context=context)
@@ -163,7 +171,7 @@ def concrete_news(request, concrete: str):
 def about_us(request):
     context = {
         'title': 'Our Story',
-        'links_menu': get_collections_menu()
+        'links_menu': get_header()
     } | main_context
 
     return render(request, 'our_story.html', context=context)
@@ -173,7 +181,7 @@ def about_us(request):
 def ethos(request):
     context = {
                   'title': 'Our Story',
-                  'links_menu': get_collections_menu()
+                  'links_menu': get_header()
               } | main_context
 
     return render(request, 'ethos.html', context=context)
@@ -183,7 +191,7 @@ def ethos(request):
 def design_studio(request):
     context = {
                   'title': 'Design For Living',
-                  'links_menu': get_collections_menu()
+                  'links_menu': get_header()
               } | main_context
 
     return render(request, 'design_studio.html', context=context)
@@ -193,7 +201,7 @@ def design_studio(request):
 def fulfilment(request):
     context = {
                   'title': 'Design For Living',
-                  'links_menu': get_collections_menu()
+                  'links_menu': get_header()
               } | main_context
 
     return render(request, 'fulfilment.html', context=context)
@@ -203,7 +211,7 @@ def fulfilment(request):
 def privacy_policy(request):
     context = {
                   'title': 'Design For Living',
-                  'links_menu': get_collections_menu()
+                  'links_menu': get_header()
               } | main_context
 
     return render(request, 'privacy_policy.html', context=context)
@@ -213,7 +221,7 @@ def privacy_policy(request):
 def cookies(request):
     context = {
                   'title': 'Design For Living',
-                  'links_menu': get_collections_menu()
+                  'links_menu': get_header()
               } | main_context
 
     return render(request, 'cookies.html', context=context)

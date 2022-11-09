@@ -92,29 +92,34 @@
                     width:100%;text-align:  center;color: #fff;
                 }
                         </style>
-                        {% for category in categories %}
+                        {% for category in links_menu.collections %}
                         <li>
-                            <a href="{{ category url }}" title="{{ category name }}">{{ category name }}</a>
+                            <a href="{% url "collection" category.pk %}" title="{{ category.name }}">{{ category.name }}</a>
                             <ul class="submenu rangesSubMenu">
                                 <div class="leftList">
                                     <ul>
-                                        {% for subcategory in category.... %}
-                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory id }}">
-                                            <a href="{{ subcategory url }}"><small>{{ subcategory name }}</small></a>
+                                        {% for subcategory in links_menu.types %}
+                                            {% if subcategory.category.pk == category.pk %}
+                                                <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory.pk }}">
+                                            <a href="{% url "type" category.pk %}"><small>{{ subcategory.name }}</small></a>
                                         </li>
+                                             {% endif %}
                                         {% endfor %}
                                     </ul>
                                 </div>
 
-                                {% for subcategory in category.... %}
-                                <div class="rangeImageContainer" id="cat_{{ subcategory id }}" data-order="2_0">
-                                    <a href="{{ subcategory url }}">
-                                        <img src="{{ subcategory image }}" class="rangeImg">
+                                {% for subcategory in category %}
+                                    {% if subcategory.category.pk == category.pk %}
+                                        <div class="rangeImageContainer" id="cat_{{ subcategory.pk }}" data-order="2_0">
+                                    <a href="{% url "type" category.pk %}">
+                                        <img src="/media/{{ subcategory.image }}" class="rangeImg">
                                         <div class="rangeTitle">
-                                            <p class="rangeTitleText">{{ subcategory name }}</p>
+                                            <p class="rangeTitleText">{{ subcategory.name }}</p>
                                         </div>
                                     </a>
                                 </div>
+                                    {% endif %}
+
                                 {% endfor %}
                             </ul>
                         </li>
@@ -123,14 +128,19 @@
                 </li>
 {# Subcategories #}
             {% for category in categories %}
-                <li class="mob-collection bg">
-                    <a href="{{ category url }}">{{ category name }}</a>
+
+                    <li class="mob-collection bg">
+                    <a href="{% url "collection" category.pk %}">{{ category.name }}</a>
                     <ul class="submenu">
-                        {% for subcategory in category.... %}
-                            <li><a href="{{ subcategory url }}" title="{{ subcategory name }}">{{ subcategory name }}</a></li>
+                        {% for subcategory in category %}
+                            {% if subcategory.category.pk == category.pk %}
+                                <li><a href="{% url "type" subcategory.pk %}" title="{{ subcategory.name }}">{{ subcategory.name }}</a></li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
-                </li>
+                    </li>
+
+
             {% endfor %}
             </ul>
             <a class="mob-menu" href="javascript:void(0)">

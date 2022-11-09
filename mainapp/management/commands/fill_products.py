@@ -36,6 +36,7 @@ class Command(BaseCommand):
                     size=product_item['Size'],
                     availability=product_item['Availability'],
                     weight=product_item['Weight'],
+                    # description=product_item['']
                     type=new_product_type
                 )
                 product_new_item.save()
