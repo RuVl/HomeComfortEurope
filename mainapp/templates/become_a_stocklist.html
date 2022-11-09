@@ -1,0 +1,48 @@
+{% extends 'for_content.html' %}
+{% load static %}
+
+{% block content %}
+<div class="headerName">
+     <div class="container">
+	<div class="breadcrum">
+		<ul>
+		  <li><a href="https://www.heritagefurnitureuk.com/index.php">Home |</a></li>
+		  <li><a href="https://www.heritagefurnitureuk.com/become-a-stocklist.php">Become a Stockist</a></li>
+		</ul>
+	 </div>
+	  <h3>Become a Stockist</h3>
+      </div>
+   </div>
+<div class="container">
+    <div class="success-content">
+        <br>
+        <div class="success-content">
+            <form id="frmStockist" name="frmStockist" method="post" action="{% url 'become_a_stocklist' %}" class="createAccount">
+                <div class="row">
+                    <label>First Name<span>*</span></label>
+                    <input type="text" name="txtName" id="txtName" value="{{ firstName }}">
+                </div>
+                <div class="row">
+                    <label>Last Name<span>*</span></label>
+                    <input type="text" name="txtLastName" id="txtLastName" value="{{ lastName }}">
+                </div>
+                <div class="row">
+                    <label>Email Address<span>*</span></label>
+                    <input type="text" name="txtEmailAddress" id="txtEmailAddress" value="{{ email }}">
+                </div>
+                <div class="row">
+                    <label>Telephone Number<span>*</span></label>
+                    <input type="text" name="txtTelephoneNo" id="txtTelephoneNo" value="{{ phone }}">
+                </div>
+                <div class="row">
+                    <label>Post Code<span>*</span></label>
+                    <input type="text" name="txtPostCode" id="txtPostCode" value="{{ postCode }}">
+                </div>
+                <div class="row submitBtn">
+                    <input type="Submit" name="SubmitStockist" id="SubmitStockist" value="Submit" class="searchBtn">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

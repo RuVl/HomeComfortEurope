@@ -4,10 +4,10 @@
         <div class="footerList">
             <h3>About</h3>
             <ul class="about">
-                <li><a href="{{ our_story }}">Our Story</a></li>
-                <li><a href="{{ ethos }}">Ethos</a></li>
-                <li><a href="{{ design_studio }}">Design Studio</a></li>
-                <li><a href="{{ fulfilment }}">Fulfilment</a></li>
+                <li><a href="{% url 'about_us' %}">Our Story</a></li>
+                <li><a href="{% url 'ethos' %}">Ethos</a></li>
+                <li><a href="{% url 'design_studio' %}">Design Studio</a></li>
+                <li><a href="{% url 'fulfilment' %}">Fulfilment</a></li>
             </ul>
         </div>
         
@@ -15,19 +15,11 @@
         <div class="footerList">
             <h3>Terms</h3>
             <ul class="about">
-                <li><a href="{{ privacy_policy }}">Privacy Policy</a></li>
-                <li><a href="{{ cookies }}">Cookies</a></li>
+                <li><a href="{% url 'privacy_policy' %}">Privacy Policy</a></li>
+                <li><a href="{% url 'cookies' %}">Cookies</a></li>
             </ul>
         </div>
-        
-<!-- Contact -->
-        <div class="footerList">
-            <h3>Contact</h3>
-            <ul class="about">
-                <li><a href="{{ contact_us }}">Get in touch</a></li>
-            </ul>
-        </div>
-        
+
 <!-- Social -->
         <div class="footerList social-media">
             <h3>Follow us on Social Media</h3>
