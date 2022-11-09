@@ -36,6 +36,9 @@ class CompanyModel(models.Model):
     post_code = models.CharField(max_length=128)
     owner = models.ForeignKey(UserProfileModel, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.company_name
+
 
 class NewsModel(models.Model):
     news_text = models.TextField(
@@ -83,3 +86,6 @@ class ProductItem(models.Model):
     weight = models.CharField(max_length=128)
     type = models.ForeignKey(ProductType, on_delete=models.CASCADE)
     material = models.CharField(max_length=256, blank=True)
+
+    def __str__(self):
+        return self.name

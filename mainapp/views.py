@@ -15,12 +15,20 @@ def get_collections_menu():
 
 def get_types_sorted_by_collections(pk):
     product_types_menu = ProductType.objects.filter(collection=pk)
+    context = {}
+
     return product_types_menu
 
 
-def get_products_sorted_by_types(pk):
+def get_products_sorted_by_type(request, pk):
     products_sorted_by_types = ProductItem.objects.filter(type=pk)
-    return products_sorted_by_types
+    context = {
+        'title': 'Heritage Furniture - Design For Living',
+        'links_menu': get_collections_menu(),
+        'products': products_sorted_by_types,
+        'collections': ProductType.objects.get(type=pk).collection
+    }
+    return render(request, 'subcategory.html', context=context)
 
 
 def get_product(request, pk):
