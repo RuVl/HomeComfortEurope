@@ -1,4 +1,6 @@
 .idea/
 ./venv
 ./db.sqlite3
-./mainapp/migrations
+./mainapp/migrations/
+*.DS_Store
+./identifier.sqlite
