@@ -105,8 +105,6 @@ def register(request):
             company.save()
         login(request, user)
         return index(request)
-        # TODO Создать пользователя
-        # Отправка сообщения на почту НЕ нужна!
 
 
 def login_(request):
@@ -145,6 +143,7 @@ def news(request):
     return render(request, 'news.html', context=context)
 
 
+# Complete
 def concrete_news(request, concrete: str):
     context = {
                   'title': concrete.replace('_', ' '),
