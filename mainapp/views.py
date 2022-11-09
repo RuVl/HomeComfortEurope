@@ -235,5 +235,3 @@ def cookies(request):
 # def get_category(pk):
 #         collection = get_object_or_404(CollectionModel, pk=pk)
 #         return collection
-
-
