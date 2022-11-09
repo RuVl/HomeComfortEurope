@@ -152,6 +152,7 @@ def search_result(request):
     return render(request, 'search_result.html', context=context)
 
 
+# Complete
 def news(request):
     context = {
         'title': 'News',
