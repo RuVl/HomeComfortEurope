@@ -1,0 +1,16 @@
+{% extends 'for_content.html' %}
+
+{% block content %}
+<div class="headerName">
+    <div class="container">
+        <div class="breadcrum">
+            <ul>
+                <li><a href="{% url 'index' %}">Home |</a></li>
+                <li><a href="{% url 'news' %}">News</a></li>
+            </ul>
+        </div>
+        <h3>News details</h3>
+    </div>
+</div>
+{% block news %}{% endblock %}
+{% endblock %}
