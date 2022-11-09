@@ -126,24 +126,6 @@ def login_(request):
         # TODO Залогинить пользователя
 
 
-def become_a_stocklist(request):
-    if request.method == 'GET':
-        # TODO сюда вставить данные пользователя, если он сейчас залогинился, иначе - отправить его на страницу регистрации
-        # Если каких-то данных нет - оставь ''
-        context = {
-                      'title': 'Design For Living',
-                      'firstName': '',
-                      'lastName': '',
-                      'email': '',
-                      'phone': '',
-                      'postCode': ''
-                  } | main_context
-
-        return render(request, '../../../HomeComfortEurope/mainapp/templates/become_a_stocklist.html', context=context)
-    elif request.method == 'POST':
-        return index(request)
-
-
 # Complete
 def search_result(request):
     context = {
