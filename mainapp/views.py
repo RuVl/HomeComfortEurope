@@ -79,7 +79,6 @@ def register(request):
         phone = request.POST['phone']
 
         password = request.POST['password']
-        confirm_password = request.POST['confirmPassword']
 
         company_name_ = request.POST['CompanyName']
         sel_company_type = request.POST['SelCompanyType']
@@ -121,7 +120,6 @@ def login_(request):
         login(request, user)
         main_context['is_authenticated'] = request.user.is_authenticated
         return index(request)
-        # TODO Залогинить пользователя
 
 
 # Complete
