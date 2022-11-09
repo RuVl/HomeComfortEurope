@@ -1,0 +1,88 @@
+from django.db import models
+from django.contrib.auth.models import AbstractUser
+from django.utils import timezone
+
+
+# Create your models here.
+
+
+class UserProfileModel(AbstractUser):
+    phone_number = models.CharField(
+        null=True,
+        blank=True,
+        max_length=12
+    )
+
+    is_dealer = models.BooleanField(
+        default=False
+    )
+
+    interested_in_stocking = models.BooleanField(
+        default=False
+    )
+
+    is_consumer = models.BooleanField(
+        default=False
+    )
+
+    def __str__(self):
+        return self.email
+
+
+class CompanyModel(models.Model):
+    company_name = models.CharField(max_length=255),
+    company_number = models.CharField(max_length=12),
+    company_type = models.CharField(max_length=128),
+    address = models.CharField(max_length=512),
+    city = models.CharField(max_length=128),
+    country = models.CharField(max_length=128),
+    post_code = models.CharField(max_length=128)
+    owner = models.ForeignKey(UserProfileModel, on_delete=models.CASCADE)
+
+
+class NewsModel(models.Model):
+    news_text = models.TextField(
+    )
+
+    created_at = models.DateTimeField(
+        default=timezone.now
+    )
+    image = models.ImageField(upload_to='NewsImages', blank=True)
+
+
+class CollectionModel(models.Model):
+    name = models.CharField(unique=True, max_length=128)
+    description = models.CharField(blank=True, max_length=2048)
+    image = models.ImageField(upload_to='CollectionsImages', blank=True)
+
+
+class ProductType(models.Model):
+    name = models.CharField(unique=True, max_length=128)
+    description = models.CharField(blank=True, max_length=2048)
+    image = models.ImageField(upload_to='ProductTypesImages', blank=True)
+
+
+class ProductSubType(models.Model):
+    name = models.CharField(unique=True, max_length=128)
+    description = models.CharField(blank=True, max_length=2048)
+    image = models.ImageField(upload_to='ProductSubTypesImages', blank=True)
+    type = models.ForeignKey(ProductType, on_delete=models.CASCADE)
+
+
+class ProductItem(models.Model):
+    IN_STOCK = 'In Stock'
+    SOLD_OUT = 'Sold Out'
+    AVAILABILITY_CHOICES = (
+        (IN_STOCK, 'In Stock'),
+        (SOLD_OUT, 'Sold Out'),
+    )
+    name = models.CharField(max_length=128)
+    image = models.ImageField(upload_to='ProductsImages', blank=False)
+    product_code = models.CharField(blank=False, max_length=20)
+    size = models.CharField(max_length=128)
+    availability = models.CharField(
+        choices=AVAILABILITY_CHOICES, max_length=10
+    )
+    weight = models.CharField(max_length=128)
+    subtype = models.ForeignKey(ProductSubType, on_delete=models.CASCADE)
+    collection = models.ForeignKey(CollectionModel, on_delete=models.CASCADE)
