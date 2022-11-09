@@ -51,22 +51,22 @@ class NewsModel(models.Model):
 
 
 class CollectionModel(models.Model):
-    name = models.CharField(unique=True, max_length=128)
+    name = models.CharField(max_length=128)
     description = models.CharField(blank=True, max_length=2048)
     image = models.ImageField(upload_to='CollectionsImages', blank=True)
 
+    def __str__(self):
+        return self.name
+
 
 class ProductType(models.Model):
-    name = models.CharField(unique=True, max_length=128)
+    name = models.CharField(max_length=128)
     description = models.CharField(blank=True, max_length=2048)
     image = models.ImageField(upload_to='ProductTypesImages', blank=True)
+    collection = models.ForeignKey(CollectionModel, on_delete=models.CASCADE)
 
-
-class ProductSubType(models.Model):
-    name = models.CharField(unique=True, max_length=128)
-    description = models.CharField(blank=True, max_length=2048)
-    image = models.ImageField(upload_to='ProductSubTypesImages', blank=True)
-    type = models.ForeignKey(ProductType, on_delete=models.CASCADE)
+    def __str__(self):
+        return self.name
 
 
 class ProductItem(models.Model):
@@ -77,12 +77,12 @@ class ProductItem(models.Model):
         (SOLD_OUT, 'Sold Out'),
     )
     name = models.CharField(max_length=128)
-    image = models.ImageField(upload_to='ProductsImages', blank=False)
+    image = models.ImageField(upload_to='ProductsImages', blank=True)
     product_code = models.CharField(blank=False, max_length=20)
     size = models.CharField(max_length=128)
     availability = models.CharField(
         choices=AVAILABILITY_CHOICES, max_length=10
     )
     weight = models.CharField(max_length=128)
-    subtype = models.ForeignKey(ProductSubType, on_delete=models.CASCADE)
-    collection = models.ForeignKey(CollectionModel, on_delete=models.CASCADE)
+    type = models.ForeignKey(ProductType, on_delete=models.CASCADE)
+    material = models.CharField(max_length=256, blank=True)

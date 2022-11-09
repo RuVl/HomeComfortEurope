@@ -1,0 +1,3612 @@
+{
+    "Chests": {
+        "2 Over 3 Chest": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-02",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:95 cm W:100 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "4 Drawer Chest": {
+            "Range Name": "Cuba Bedroom",
+            "Product Code": "CB-02",
+            "Material": "m",
+            "Size": "H:100 cm W:43 cm D: 105 cm",
+            "Availability": "Low Stock",
+            "Weight": "77.60 kg"
+        },
+        "7 Drawer Chest": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB40",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "48.00 kg"
+        },
+        "5 Drawer Tallboy": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-03",
+            "Material": "",
+            "Size": "H:45 cm W:40 cm D: 122 cm",
+            "Availability": "In Stock",
+            "Weight": "40.60 kg"
+        },
+        "5 Drawer Large Drum": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-042",
+            "Material": "",
+            "Size": "H:45 cm W:45 cm D: 88 cm",
+            "Availability": "In Stock",
+            "Weight": "32.60 kg"
+        },
+        "5 Drawer Slim Drum": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-041",
+            "Material": "",
+            "Size": "H:32 cm W:32 cm D: 76 cm",
+            "Availability": "In Stock",
+            "Weight": "16.20 kg"
+        },
+        "3 Drawer Drum": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-040",
+            "Material": "",
+            "Size": "H:42 cm W:42 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "20.20 kg"
+        },
+        "Oval Drum Chest": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-030",
+            "Material": "Sheesham and Acacia Wood",
+            "Size": "H:57 cm W:57 cm D: 75 cm",
+            "Availability": "In Stock",
+            "Weight": "19.00 kg"
+        },
+        "5 Drawer Tall Chest": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-05",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:120 cm W:50 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "34.00 kg"
+        },
+        "2 Over 4 Chest": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-18",
+            "Material": "Pine",
+            "Size": "H:115 cm W:90 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "45.00 kg"
+        },
+        "Kids 2 Over 2 Chest": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-04",
+            "Material": "Pine",
+            "Size": "H:74 cm W:80 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "24.00 kg"
+        },
+        "3 Over 4 Multi Chest": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-06",
+            "Material": "Pine",
+            "Size": "H:77 cm W:43 cm D: 120 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "40.00 kg"
+        },
+        "6 Drawer Chest": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-05",
+            "Material": "Pine",
+            "Size": "H:117 cm W:93 cm D: 43 cm",
+            "Availability": "In Stock",
+            "Weight": "43.50 kg"
+        },
+        "9 Drawer Chest": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-16",
+            "Material": "Pine",
+            "Size": "H:96 cm W:126 cm D: 43 cm",
+            "Availability": "In Stock",
+            "Weight": "62.50 kg"
+        },
+        "3 Over 4 Chest": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-02",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:76 cm W:125 cm D: 41 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "43.00 kg"
+        },
+        "4 Over 3 Chest": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-02",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "60.00 kg"
+        },
+        "3 Drawer Chest": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-04",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "37.00 kg"
+        },
+        "5 Drawer Wide Chest": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN37",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:88 cm W:110 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "43.00 kg"
+        },
+        "5 Drawers Tall Chest": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-03",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:122 cm W:45 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "7 Drawer Chest Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN40",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:80 cm W:130 cm D: 42 cm",
+            "Availability": "Low Stock",
+            "Weight": "48.00 kg"
+        },
+        "2 Over 2 Chest": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-03",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:77 cm W:80 cm D: 38 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "4 Drawer Wide Chest": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-03",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:80 cm W:112 cm D: 42 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "6 Drawer Wide Chest": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-04",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:78 cm W:120 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "41.00 kg"
+        }
+    },
+    "Wardrobes": {
+        "Double Wardrobe": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-11",
+            "Material": "Pine",
+            "Size": "H:180 cm W:90 cm D: 54 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "48.50 kg"
+        },
+        "Kids Double Wardrobe": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-09",
+            "Material": "Pine",
+            "Size": "H:139 cm W:86 cm D: 48 cm",
+            "Availability": "In Stock",
+            "Weight": "36.50 kg"
+        },
+        "Chunky Pine Combination Wardrobe": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-19",
+            "Material": "Pine",
+            "Size": "H:139 cm W:86 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "45.00 kg"
+        },
+        "2 Door 1 Drawer Wardrobe": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-10",
+            "Material": "Pine",
+            "Size": "H:180 cm W:90 cm D: 54 cm",
+            "Availability": "In Stock",
+            "Weight": "57.00 kg"
+        },
+        "Double Wardrobe with Mirror and Drawers": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-20",
+            "Material": "Pine",
+            "Size": "H:200 cm W:110 cm D: 54 cm",
+            "Availability": "In Stock",
+            "Weight": "75.00 kg"
+        },
+        "Triple Wardrobe": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB43",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "99.00 kg"
+        },
+        "Triple Wardrobe with Mirror": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-14",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "104.00 kg"
+        },
+        "Double Wardrobe with Drawers": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-12",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "95.00 kg"
+        },
+        "Ladies Wardrobe": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-06",
+            "Material": "Pine",
+            "Size": "H:186 cm W:95 cm D: 59 cm",
+            "Availability": "In Stock",
+            "Weight": "53.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Single Wardrobe with Drawer": {
+            "Range Name": "Cherbourg Oak Bedroom",
+            "Product Code": "RT-16",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:195 cm W:75 cm D: 57 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "64.00 kg"
+        },
+        "Full Hanging Wardrobe": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-06",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:190 cm W:110 cm D: 57 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Triple Wardrobe with Drawers": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-13",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "104.00 kg"
+        },
+        "Single Wardrobe": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "48.00 kg"
+        },
+        "Full Hanging Double Wardrobe": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-11",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "78.00 kg"
+        },
+        "Double Wardrobe With Drawer": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-06",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:195 cm W:100 cm D: 57 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "21.00 kg"
+        },
+        "Triple Wardrobe With Mirror": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB44",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "100.00 kg"
+        },
+        "Full Hanging Wardrobe Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN41",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:190 cm W:110 cm D: 57 cm",
+            "Availability": "Low Stock",
+            "Weight": "55.00 kg"
+        },
+        "Double Wardrobe With Drawer Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN42",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:190 cm W:110 cm D: 57 cm",
+            "Availability": "In Stock",
+            "Weight": "61.00 kg"
+        },
+        "Triple Wardrobe Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN43",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:190 cm W:150 cm D: 57 cm",
+            "Availability": "Low Stock",
+            "Weight": "99.00 kg"
+        },
+        "Triple Wardrobe With Mirror Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN44",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:190 cm W:150 cm D: 57 cm",
+            "Availability": "Low Stock",
+            "Weight": "100.00 kg"
+        },
+        "Triple Wardrobe With Drawer": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-08",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:195 cm W:150 cm D: 57 cm",
+            "Availability": "Low Stock",
+            "Weight": "98.00 kg"
+        }
+    },
+    "Beds": {
+        "King Size Bed - 5ft": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-17",
+            "Material": "Pine",
+            "Size": "H:105 cm W:167 cm D: 222 cm",
+            "Availability": "Low Stock",
+            "Weight": "60.50 kg"
+        },
+        "Kids High End Bed - 3 Ft": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-15",
+            "Material": "Pine",
+            "Size": "H:105 cm W:103 cm D: 202 cm",
+            "Availability": "Low Stock",
+            "Weight": "33.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Single Bed - 3ft": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-09",
+            "Material": "Pine",
+            "Size": "H:97 cm W:104 cm D: 207 cm",
+            "Availability": "Low Stock",
+            "Weight": "33.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Double Bed - 4ft 6in": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-16",
+            "Material": "Pine",
+            "Size": "H:105 cm W:148 cm D: 207 cm",
+            "Availability": "In Stock",
+            "Weight": "49.50 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Double Bed 4ft 6\"": {
+            "Range Name": "Cherbourg Oak Bedroom",
+            "Product Code": "RT-09",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:0 cm W:138 cm D: 193 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "50.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Super King Size Bed - 6ft": {
+            "Range Name": "Cuba Bedroom",
+            "Product Code": "CB-07",
+            "Material": "",
+            "Size": "H:190 cm W:210 cm D: 109 cm",
+            "Availability": "Out of Stock (Available 11-12 Weeks)",
+            "Weight": "81.20 kg",
+            "Note": "Part Assembly Required"
+        },
+        "3ft Single Bed Low Foot": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-21",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "40.00 kg"
+        },
+        "4ft6 Double Bed Low Foot": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-22",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "64.00 kg"
+        },
+        "5ft King Size Bed Low Foot": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-23",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "70.00 kg"
+        },
+        "Low Foot Bed Double": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB46",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "53.00 kg"
+        },
+        "Low Foot Bed King": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB47",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "58.00 kg"
+        },
+        "4 ft 6 Double Bed Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN46",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:105 cm W:210 cm D: 148 cm",
+            "Availability": "In Stock",
+            "Weight": "53.00 kg"
+        },
+        "5 ft King Size Bed Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN47",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:105 cm W:220 cm D: 163 cm",
+            "Availability": "In Stock",
+            "Weight": "58.00 kg"
+        },
+        "Sleigh Bed 4FT 6": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-09",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:110 cm W:222 cm D: 146 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sleigh Bed 5FT": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:110 cm W:232 cm D: 161 cm",
+            "Availability": "In Stock",
+            "Weight": "114.00 kg"
+        },
+        "4ft 6 Bed Double": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-07",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:87 cm W:150 cm D: 206 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "5ft Bed King": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-08",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:87 cm W:165 cm D: 214 cm",
+            "Availability": "In Stock",
+            "Weight": "61.00 kg"
+        }
+    },
+    "Dressing Tables": {
+        "Dressing Table": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-09",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:79 cm W:110 cm D: 40 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "21.00 kg"
+        },
+        "Burnham Oak Stool": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-16",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:387 cm W:46 cm D: 44 cm",
+            "Availability": "Low Stock",
+            "Weight": "8.00 kg"
+        }
+    },
+    "Dressing Table Sets": {
+        "Hendon Pine Vanity Mirror": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-15",
+            "Material": "Pine",
+            "Size": "H:50 cm W:50 cm D: 18 cm",
+            "Availability": "Low Stock",
+            "Weight": "4.50 kg"
+        },
+        "Dressing Table Stool": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-07S",
+            "Material": "Pine",
+            "Size": "H:46 cm W:42 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Dressing Table Set": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB45",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "58.00 kg"
+        },
+        "Rustic Oak Dressing Table Mirror": {
+            "Range Name": "Cherbourg Oak Bedroom",
+            "Product Code": "RT-14",
+            "Material": "Solid Oak with Oak Veneer",
+            "Size": "H:45 cm W:59 cm D: 4 cm",
+            "Availability": "In Stock",
+            "Weight": "4.50 kg"
+        },
+        "Chunky Pine Vanity Mirror": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-08",
+            "Material": "Pine",
+            "Size": "H:61 cm W:57 cm D: 20 cm",
+            "Availability": "In Stock",
+            "Weight": "4.50 kg"
+        },
+        "Dressing Table Set Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN45",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:82 cm W:98 cm D: 43 cm",
+            "Availability": "In Stock",
+            "Weight": "58.00 kg"
+        },
+        "Colmar Natural Oak Stool": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-14",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:46 cm W:49 cm D: 40 cm",
+            "Availability": "Low Stock",
+            "Weight": "8.00 kg"
+        },
+        "Harkuta Oak Stool": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-11",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:45 cm W:47 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "8.00 kg"
+        }
+    },
+    "Bedside Cabinets": {
+        "3 Drawer Bedside Cabinet": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-01",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "26.00 kg"
+        },
+        "Bedside Cabinet - LEFT": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-031",
+            "Material": "Sheesham",
+            "Size": "H:50 cm W:40 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "28.40 kg"
+        },
+        "Bedside Cabinet - RIGHT": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-031RIGHT",
+            "Material": "Sheesham",
+            "Size": "H:50 cm W:40 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "28.40 kg"
+        },
+        "Kids 3 Drawer Bedside Cabinet": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-01",
+            "Material": "Pine",
+            "Size": "H:56 cm W:39 cm D: 30 cm",
+            "Availability": "In Stock",
+            "Weight": "10.00 kg"
+        },
+        "Bedside Cabinet": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-01",
+            "Material": "Pine",
+            "Size": "H:56 cm W:45 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "13.00 kg"
+        },
+        "1 Drawer Bedside": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-02",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "17.00 kg"
+        },
+        "3 Drawer Bedside": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-01",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:60 cm W:40 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "13.00 kg"
+        },
+        "Large 3 Drawer Bedside": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-07",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "17.00 kg"
+        },
+        "3 Drawer Bedside Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN36",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:65 cm W:40 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg"
+        }
+    },
+    "Blanket Boxes": {
+        "Blanket Box": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB48",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "19.00 kg"
+        },
+        "Trunk Box": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-069",
+            "Material": "",
+            "Size": "H:88 cm W:46 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "27.40 kg"
+        },
+        "Blanket Box with Drawers": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-20",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "Blanket Box Painted": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN48",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:55 cm W:95 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "19.00 kg"
+        }
+    },
+    "Bedroom Mirrors": {
+        "Rectangular Mirror": {
+            "Range Name": "Cuba Bedroom",
+            "Product Code": "CB-10",
+            "Material": "Sheesham",
+            "Size": "H:73 cm W:3 cm D: 105 cm",
+            "Availability": "Low Stock",
+            "Weight": "12.40 kg"
+        },
+        "Tall Mirror": {
+            "Range Name": "Cuba Bedroom",
+            "Product Code": "CB-11",
+            "Material": "Oak",
+            "Size": "H:58 cm W:3 cm D: 130 cm",
+            "Availability": "Low Stock",
+            "Weight": "13.00 kg"
+        },
+        "Cuba Sheesham Mirror": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-29",
+            "Material": "Sheesham",
+            "Size": "H:58 cm W:3 cm D: 88 cm",
+            "Availability": "Low Stock",
+            "Weight": "9.00 kg"
+        },
+        "Moda Oak Large Mirror": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-11",
+            "Material": "Solid Oak",
+            "Size": "H:75 cm W:105 cm D: 3 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg"
+        },
+        "Moda Oak Small Mirror": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-16",
+            "Material": "Solid Oak",
+            "Size": "H:60 cm W:90 cm D: 3 cm",
+            "Availability": "In Stock",
+            "Weight": "9.50 kg"
+        },
+        "Jali Mirror": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-057",
+            "Material": "Sheesham",
+            "Size": "H:70 cm W:3 cm D: 115 cm",
+            "Availability": "In Stock",
+            "Weight": "14.60 kg"
+        },
+        "Jali Small Mirror": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-058",
+            "Material": "Sheesham",
+            "Size": "H:72 cm W:3 cm D: 106 cm",
+            "Availability": "In Stock",
+            "Weight": "12.60 kg"
+        },
+        "Thacket Mirror": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-059",
+            "Material": "Sheesham",
+            "Size": "H:58 cm W:3 cm D: 71 cm",
+            "Availability": "Low Stock",
+            "Weight": "7.00 kg"
+        },
+        "Chunky Pine Cheval Mirror": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-14",
+            "Material": "Pine",
+            "Size": "H:147 cm W:53 cm D: 8 cm",
+            "Availability": "Low Stock",
+            "Weight": "11.00 kg"
+        },
+        "Hendon Pine Vanity Mirror": {
+            "Range Name": "Hendon Pine Bedroom",
+            "Product Code": "ENP-15",
+            "Material": "Pine",
+            "Size": "H:50 cm W:50 cm D: 18 cm",
+            "Availability": "Low Stock",
+            "Weight": "4.50 kg"
+        },
+        "Rustic Oak Mirror": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-32",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:60 cm W:75 cm D: 3 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "10.00 kg"
+        },
+        "Rustic Oak Dressing Table Mirror": {
+            "Range Name": "Cherbourg Oak Bedroom",
+            "Product Code": "RT-14",
+            "Material": "Solid Oak with Oak Veneer",
+            "Size": "H:45 cm W:59 cm D: 4 cm",
+            "Availability": "In Stock",
+            "Weight": "4.50 kg"
+        },
+        "Rustic Oak Wall Mirror": {
+            "Range Name": "Cherbourg Oak Bedroom",
+            "Product Code": "RT-15",
+            "Material": "Solid Oak with Oak Veneer",
+            "Size": "H:61 cm W:117 cm D: 30 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "15.00 kg"
+        },
+        "Earlswood Large Wall Mirrors": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP35",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:100 cm W:120 cm D: 3 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Burnham Cheval Mirror": {
+            "Range Name": "Burnham Oak Bedroom",
+            "Product Code": "TE-19",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "16.00 kg"
+        },
+        "Chunky Pine Vanity Mirror": {
+            "Range Name": "Chunky Pine Bedroom",
+            "Product Code": "CKP-08",
+            "Material": "Pine",
+            "Size": "H:61 cm W:57 cm D: 20 cm",
+            "Availability": "In Stock",
+            "Weight": "4.50 kg"
+        },
+        "Corbett Oak Chevel Mirror": {
+            "Range Name": "Corbett Oak Bedroom",
+            "Product Code": "WB49",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "16.00 kg"
+        },
+        "Brandford Painted Cheval Mirror": {
+            "Range Name": "Branford Painted Bedroom",
+            "Product Code": "WBPN49",
+            "Material": "Solid Oak - Oak Veneers-Hardwood",
+            "Size": "H:147 cm W:53 cm D: 8 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "16.00 kg"
+        },
+        "Alstead Painted Small Mirror": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN34",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:2 cm W:60 cm D: 90 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Colmar Natural Oak Wall Mirror": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-17",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:80 cm W:100 cm D: 4 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Harkuta Oak Dressing Mirror": {
+            "Range Name": "Harkuta Oak Bedroom",
+            "Product Code": "MT-10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:69 cm W:89 cm D: 6 cm",
+            "Availability": "In Stock",
+            "Weight": "7.00 kg"
+        },
+        "Alba Rough Sawn Mirror": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-15",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:75 cm W:100 cm D: 4 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Carno Oak Mirror": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-20",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:90 cm W:60 cm D: 2 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "TV and Hi-Fi Cabinets": {
+        "TV/Video Cabinet": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-02",
+            "Material": "",
+            "Size": "H:100 cm W:60 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "50.40 kg"
+        },
+        "Plasma / Media Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-37",
+            "Material": "",
+            "Size": "H:118 cm W:50 cm D: 52 cm",
+            "Availability": "In Stock",
+            "Weight": "53.40 kg"
+        },
+        "Open Media Unit": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-36",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:48 cm W:107 cm D: 35 cm",
+            "Availability": "Low Stock",
+            "Weight": "31.00 kg"
+        },
+        "TV Video Cabinet": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-08",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:52 cm W:105 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "23.00 kg"
+        },
+        "Square TV - Video Cabinet": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-066",
+            "Material": "Sheesham Wood",
+            "Size": "H:85 cm W:48 cm D: 72 cm",
+            "Availability": "In Stock",
+            "Weight": "39.20 kg"
+        },
+        "Entertainment Hi-Fi Cabinet": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-032",
+            "Material": "",
+            "Size": "H:65 cm W:50 cm D: 120 cm",
+            "Availability": "In Stock",
+            "Weight": "37.20 kg"
+        },
+        "Chunky TV/VCR/DVD Cabinet": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-049",
+            "Material": "",
+            "Size": "H:97 cm W:51 cm D: 70 cm",
+            "Availability": "Out of Stock (Available 11-12 Weeks)",
+            "Weight": "47.40 kg"
+        },
+        "Corner large TV/VCR/DVD Cabinet": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-048",
+            "Material": "",
+            "Size": "H:114 cm W:56 cm D: 69 cm",
+            "Availability": "In Stock",
+            "Weight": "57.60 kg"
+        },
+        "Corner TV Video Cabinet": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-27",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:65 cm W:105 cm D: 55 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "33.50 kg"
+        },
+        "Plasma TV/DVD/Video Unit": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-25",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:48 cm W:134 cm D: 40 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "33.00 kg"
+        },
+        "Corner TV Unit": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-09",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:51 cm W:90 cm D: 39 cm",
+            "Availability": "In Stock",
+            "Weight": "27.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "4 Drawer Plasma TV Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-47",
+            "Material": "",
+            "Size": "H:197 cm W:55 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "60.00 kg"
+        },
+        "Square TV Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-51",
+            "Material": "",
+            "Size": "H:82 cm W:40 cm D: 52 cm",
+            "Availability": "In Stock",
+            "Weight": "41.00 kg"
+        },
+        "Tv Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:50 cm W:90 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Widescreen Tv Unit": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP11",
+            "Material": "Solid Oak with Oak Veneer",
+            "Size": "H:49 cm W:120 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Corner Tv Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP12",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:57 cm W:100 cm D: 51 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Petite Corner Tv Unit": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP34",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:68 cm W:100 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Small TV Unit": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-04",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:45 cm W:95 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "21.00 kg"
+        },
+        "Plasma TV Unit": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-05",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:51 cm W:120 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "TV Unit": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-08",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:51 cm W:90 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "18.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Corner TV Unit with Drawer": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-24",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "22.00 kg"
+        },
+        "Wide Screen TV Unit": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-26",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "30.00 kg"
+        },
+        "Corner TV Unit with Doors": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-27",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "29.00 kg"
+        },
+        "Plasma Tv Media Unit": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-17",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:51 cm W:125 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "41.00 kg"
+        },
+        "Large Plasma Tv Unit": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-34",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:50 cm W:145 cm D: 45 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "43.00 kg"
+        },
+        "Small Tv Unit": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-35",
+            "Material": "Solid White Oak With Oak Veneers",
+            "Size": "H:55 cm W:85 cm D: 42 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "25.00 kg"
+        },
+        "Open Corner Tv Unit": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-41",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:50 cm W:100 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "Tv Unit": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN23",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:52 cm W:87 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "28.00 kg"
+        },
+        "Corner Tv Unit+Drawer": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN24",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:52 cm W:87 cm D: 39 cm",
+            "Availability": "Low Stock",
+            "Weight": "28.00 kg"
+        },
+        "Plasma TV Cabinet": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:52 cm W:120 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "Sunbury Tv Unit": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-05",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:50 cm W:105 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Wide TV Unit": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-07",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:51 cm W:120 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "24.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Coffee Tables": {
+        "Long John Coffee Table": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-18",
+            "Material": "American White Oak",
+            "Size": "H:50 cm W:120 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "71.50 kg"
+        },
+        "Contemporary Coffee Table": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-34",
+            "Material": "",
+            "Size": "H:110 cm W:60 cm D: 36 cm",
+            "Availability": "Low Stock",
+            "Weight": "34.40 kg"
+        },
+        "Coffee Trunk": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-15",
+            "Material": "",
+            "Size": "H:118 cm W:53 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "42.20 kg"
+        },
+        "Block Coffee Table": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-35",
+            "Material": "",
+            "Size": "H:110 cm W:60 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "25.20 kg"
+        },
+        "Coffee Table": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-15",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:32 cm W:67 cm D: 67 cm",
+            "Availability": "In Stock",
+            "Weight": "1.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Coffee Table - 60 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-063",
+            "Material": "",
+            "Size": "H:88 cm W:60 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "22.60 kg"
+        },
+        "Lamp Side Table": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-08",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:61 cm W:42 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "17.00 kg"
+        },
+        "Trunk Box": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-069",
+            "Material": "",
+            "Size": "H:88 cm W:46 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "27.40 kg"
+        },
+        "Thacket 2 Drawer Coffee Trunk": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-070",
+            "Material": "",
+            "Size": "H:88 cm W:46 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "30.80 kg"
+        },
+        "Coffee Table - 60 x 60": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-062",
+            "Material": "",
+            "Size": "H:58 cm W:58 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "18.20 kg"
+        },
+        "Coffee Table - 60 x 110": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-064",
+            "Material": "",
+            "Size": "H:110 cm W:60 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "24.40 kg"
+        },
+        "Round Coffee Table - 40cm": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-073",
+            "Material": "",
+            "Size": "H:40 cm W:40 cm D: 46 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "7.60 kg"
+        },
+        "Round Coffee Table - 55cm": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-074",
+            "Material": "",
+            "Size": "H:55 cm W:55 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "10.00 kg"
+        },
+        "Round Coffee Table - 70cm": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-075",
+            "Material": "",
+            "Size": "H:70 cm W:70 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "13.00 kg"
+        },
+        "Lamp Telephone Table": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-025",
+            "Material": "",
+            "Size": "H:30 cm W:30 cm D: 65 cm",
+            "Availability": "In Stock",
+            "Weight": "8.00 kg"
+        },
+        "Round Coffee Trunk": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-028",
+            "Material": "",
+            "Size": "H:94 cm W:94 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "32.40 kg"
+        },
+        "Square Coffee Trunk": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-029",
+            "Material": "",
+            "Size": "H:90 cm W:90 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "43.60 kg"
+        },
+        "Thacket Lamp Table": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-027",
+            "Material": "Solid Sheesham",
+            "Size": "H:40 cm W:40 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "10.80 kg"
+        },
+        "Thacket Coffee Table - 45 x 45": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-001",
+            "Material": "Solid Sheesham",
+            "Size": "H:43 cm W:43 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "9.40 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Coffee Table - 60 x 60": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-002",
+            "Material": "Solid Sheesham",
+            "Size": "H:58 cm W:58 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "13.80 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Coffee Table - 60 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-003",
+            "Material": "Solid Sheesham",
+            "Size": "H:88 cm W:60 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "16.20 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Coffee Table - 60 x 110": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-004",
+            "Material": "Solid Sheesham",
+            "Size": "H:108 cm W:60 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "19.20 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Coffee Table - 75 x 120": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-005",
+            "Material": "Solid Sheesham",
+            "Size": "H:118 cm W:75 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "23.80 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Coffee Table - 45 x 45": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-006",
+            "Material": "Solid Sheesham",
+            "Size": "H:43 cm W:43 cm D: 46 cm",
+            "Availability": "Low Stock",
+            "Weight": "10.80 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Coffee Table - 60 x 60": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-007",
+            "Material": "Solid Sheesham",
+            "Size": "H:58 cm W:58 cm D: 46 cm",
+            "Availability": "Low Stock",
+            "Weight": "15.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Coffee Table - 60 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-008",
+            "Material": "Solid Sheesham",
+            "Size": "H:88 cm W:60 cm D: 46 cm",
+            "Availability": "Low Stock",
+            "Weight": "18.40 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Coffee Table - 60 x 110": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-009",
+            "Material": "Solid Sheesham",
+            "Size": "H:108 cm W:60 cm D: 46 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "19.60 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Coffee Table - 75 x 120": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-010",
+            "Material": "Solid Sheesham",
+            "Size": "H:118 cm W:75 cm D: 46 cm",
+            "Availability": "Low Stock",
+            "Weight": "25.80 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Pebble Coffee Table - 60 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-026",
+            "Material": "Solid Sheesham",
+            "Size": "H:88 cm W:60 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "25.60 kg"
+        },
+        "Pebble Coffee Table - 60 x 60": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-060",
+            "Material": "Solid Sheesham",
+            "Size": "H:58 cm W:58 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "17.60 kg"
+        },
+        "Coffee Table With Shelf": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP13",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:50 cm W:90 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Coffee Table With Drawers": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-10",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:45 cm W:100 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "16.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Small Coffee Table with Drawers": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-40",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:45 cm W:90 cm D: 55 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "27.50 kg"
+        },
+        "E-Shaped Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-46",
+            "Material": "",
+            "Size": "H:53 cm W:30 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "21.40 kg"
+        },
+        "S-Shaped Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-50",
+            "Material": "Sheesham",
+            "Size": "H:53 cm W:30 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "Coffee Table With 4 Drawers": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP09",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:50 cm W:100 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Small Hall Table": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP18",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:75 cm W:60 cm D: 33 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Coffee Table with Drawers": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-09",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:45 cm W:100 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "Coffee Table with Shelf": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-10",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:42 cm W:100 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "18.00 kg"
+        },
+        "Small Coffee Table": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-04",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "36.00 kg"
+        },
+        "Large Coffee Table": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-12",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:45 cm W:90 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "16.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "6 Drawers Coffee Trunk": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-15",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:39 cm W:110 cm D: 59 cm",
+            "Availability": "In Stock",
+            "Weight": "36.00 kg"
+        },
+        "E Cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-39",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:60 cm W:45 cm D: 30 cm",
+            "Availability": "In Stock",
+            "Weight": "13.00 kg"
+        },
+        "S cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-40",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:60 cm W:30 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "14.00 kg"
+        },
+        "Square Coffee Table": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-11",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:54 cm W:50 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "11.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Lamp Table With Shelve": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-05",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:55 cm W:45 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Large Coffee Table With Shelve": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-06",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:40 cm W:100 cm D: 55 cm",
+            "Availability": "Low Stock",
+            "Weight": "22.00 kg"
+        },
+        "Coffee Table With Drawer": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-08",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:40 cm W:100 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "20.00 kg"
+        },
+        "Lamp Table With Drawer": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:58 cm W:40 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Circular Lamp Table": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-11",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:55 cm W:43 cm D: 43 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "8.00 kg"
+        },
+        "Circular Coffee Table": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-12",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:40 cm W:80 cm D: 80 cm",
+            "Availability": "Low Stock",
+            "Weight": "31.00 kg"
+        },
+        "Coffee Table With Shelve": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-04",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:45 cm W:95 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "22.00 kg"
+        },
+        "Coffee Table With 2 Drawers": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-05",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:53 cm W:100 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "Sunbury Coffee Table With Drawers": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-06",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:48 cm W:100 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        }
+    },
+    "Bookcases": {
+        "Solid Bookcase": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-04",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:177 cm W:76 cm D: 33 cm",
+            "Availability": "In Stock",
+            "Weight": "42.00 kg"
+        },
+        "Open Media Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-42",
+            "Material": "",
+            "Size": "H:103 cm W:35 cm D: 48 cm",
+            "Availability": "In Stock",
+            "Weight": "35.00 kg"
+        },
+        "Slim Jim Bookcase": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-05",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:177 cm W:45 cm D: 33 cm",
+            "Availability": "In Stock",
+            "Weight": "34.00 kg"
+        },
+        "3 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-21",
+            "Material": "Sheesham & Acacia wood",
+            "Size": "H:50 cm W:30 cm D: 136 cm",
+            "Availability": "In Stock",
+            "Weight": "34.80 kg"
+        },
+        "1 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-19",
+            "Material": "",
+            "Size": "H:50 cm W:30 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "13.80 kg"
+        },
+        "2 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-20",
+            "Material": "",
+            "Size": "H:46 cm W:30 cm D: 86 cm",
+            "Availability": "In Stock",
+            "Weight": "21.40 kg"
+        },
+        "4 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-22",
+            "Material": "",
+            "Size": "H:100 cm W:30 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "38.20 kg"
+        },
+        "Small Multi Shelf": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-24",
+            "Material": "",
+            "Size": "H:88 cm W:30 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "27.80 kg"
+        },
+        "Large Multi Shelf": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-23",
+            "Material": "",
+            "Size": "H:134 cm W:30 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "42.80 kg"
+        },
+        "Alcove Bookcase": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-067",
+            "Material": "None",
+            "Size": "H:56 cm W:45 cm D: 145 cm",
+            "Availability": "In Stock",
+            "Weight": "44.00 kg"
+        },
+        "Low Bookcase": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-07",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:90 cm W:90 cm D: 33 cm",
+            "Availability": "In Stock",
+            "Weight": "27.00 kg"
+        },
+        "Tall Bookcase - 1 Drawer": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-052",
+            "Material": "",
+            "Size": "H:102 cm W:36 cm D: 190 cm",
+            "Availability": "In Stock",
+            "Weight": "73.20 kg"
+        },
+        "Bookcase with 2 Drawers": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-053",
+            "Material": "",
+            "Size": "H:85 cm W:40 cm D: 178 cm",
+            "Availability": "In Stock",
+            "Weight": "71.00 kg"
+        },
+        "Tall Slim Bookcase": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-38",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:180 cm W:60 cm D: 30 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "35.50 kg"
+        },
+        "Tall Bookcase with Drawers": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-28",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:190 cm W:89 cm D: 30 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "49.00 kg"
+        },
+        "Square Display Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-49",
+            "Material": "",
+            "Size": "H:110 cm W:35 cm D: 110 cm",
+            "Availability": "Low Stock",
+            "Weight": "35.00 kg"
+        },
+        "Combination Display Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-43",
+            "Material": "",
+            "Size": "H:110 cm W:35 cm D: 178 cm",
+            "Availability": "Low Stock",
+            "Weight": "45.00 kg"
+        },
+        "Display Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-44",
+            "Material": "",
+            "Size": "H:100 cm W:35 cm D: 148 cm",
+            "Availability": "Low Stock",
+            "Weight": "38.00 kg"
+        },
+        "E-Shaped Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-46",
+            "Material": "",
+            "Size": "H:53 cm W:30 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "21.40 kg"
+        },
+        "Slim Bookcase With Drawer": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-15",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:177 cm W:50 cm D: 40 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "28.00 kg"
+        },
+        "Large Bookcase With Drawer": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP05",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:180 cm W:90 cm D: 32 cm",
+            "Availability": "In Stock",
+            "Weight": "39.00 kg"
+        },
+        "Low Bookcase With Drawer": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP06",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:90 cm W:90 cm D: 32 cm",
+            "Availability": "In Stock",
+            "Weight": "24.00 kg"
+        },
+        "Slim Bookcase": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-11",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:185 cm W:50 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "36.00 kg"
+        },
+        "Tall Bookcase": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-12",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:185 cm W:80 cm D: 40 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "54.00 kg"
+        },
+        "Glazed Bookcase with Drawer": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-09",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "39.00 kg"
+        },
+        "Glazed Cabinet": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-10",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "49.00 kg"
+        },
+        "Large Bookcase": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-12",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:180 cm W:90 cm D: 36 cm",
+            "Availability": "Low Stock",
+            "Weight": "41.00 kg"
+        },
+        "Large Bookcase With Doors": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-14",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:185 cm W:80 cm D: 40 cm",
+            "Availability": "Low Stock",
+            "Weight": "39.00 kg"
+        },
+        "Display Cabinet": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-16",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:150 cm W:90 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "45.00 kg"
+        },
+        "Glass Display Cabinet": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-11",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:180 cm W:90 cm D: 36 cm",
+            "Availability": "In Stock",
+            "Weight": "51.00 kg"
+        },
+        "Alba Rough Sawn Tall Bookcase": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-14",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:186 cm W:100 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Large Multi Display Bookcase": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-15",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:185 cm W:90 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "49.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Ladder Display Unit": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-08",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:180 cm W:75 cm D: 47 cm",
+            "Availability": "In Stock",
+            "Weight": "35.00 kg",
+            "Note": "Part Assembly Required"
+        }
+    },
+    "CD & DVD Storage": {
+        "10 Drawer CD Almirah": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-01",
+            "Material": "",
+            "Size": "H:46 cm W:40 cm D: 129 cm",
+            "Availability": "Low Stock",
+            "Weight": "56.80 kg"
+        },
+        "CD Step - Large - Highest Step Left": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-065LEFT",
+            "Material": "",
+            "Size": "H:76 cm W:23 cm D: 118 cm",
+            "Availability": "In Stock",
+            "Weight": "34.80 kg"
+        },
+        "CD Step - Large - Highest Step Right": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-065RIGHT",
+            "Material": "",
+            "Size": "H:76 cm W:23 cm D: 118 cm",
+            "Availability": "In Stock",
+            "Weight": "34.80 kg"
+        },
+        "CD Unit": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-046",
+            "Material": "",
+            "Size": "H:21 cm W:21 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "11.40 kg"
+        },
+        "CD Almirah": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-043",
+            "Material": "",
+            "Size": "H:43 cm W:27 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "32.00 kg"
+        },
+        "Chunky CD Unit": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-044",
+            "Material": "",
+            "Size": "H:26 cm W:26 cm D: 88 cm",
+            "Availability": "In Stock",
+            "Weight": "13.50 kg"
+        },
+        "DVD Rack": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-047",
+            "Material": "Sheesham & Acacia wood",
+            "Size": "H:72 cm W:24 cm D: 86 cm",
+            "Availability": "In Stock",
+            "Weight": "32.00 kg"
+        },
+        "CD Step - Small - Highest Step Left": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-039",
+            "Material": "",
+            "Size": "H:55 cm W:23 cm D: 89 cm",
+            "Availability": "Low Stock",
+            "Weight": "23.00 kg"
+        },
+        "CD Step - Small - Highest Step Right": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-039RIGHT",
+            "Material": "",
+            "Size": "H:55 cm W:23 cm D: 89 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "23.00 kg"
+        },
+        "Petite Cd/Dvd Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP40",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:125 cm W:28 cm D: 56 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "CD Bookcase": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-29",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "27.00 kg"
+        },
+        "Cd Bookcase 1": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN29",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:100 cm W:46 cm D: 250 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "27.00 kg"
+        }
+    },
+    "Display Cabinets": {
+        "Open Media Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-42",
+            "Material": "",
+            "Size": "H:103 cm W:35 cm D: 48 cm",
+            "Availability": "In Stock",
+            "Weight": "35.00 kg"
+        },
+        "3 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-21",
+            "Material": "Sheesham & Acacia wood",
+            "Size": "H:50 cm W:30 cm D: 136 cm",
+            "Availability": "In Stock",
+            "Weight": "34.80 kg"
+        },
+        "1 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-19",
+            "Material": "",
+            "Size": "H:50 cm W:30 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "13.80 kg"
+        },
+        "2 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-20",
+            "Material": "",
+            "Size": "H:46 cm W:30 cm D: 86 cm",
+            "Availability": "In Stock",
+            "Weight": "21.40 kg"
+        },
+        "4 Hole Cube": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-22",
+            "Material": "",
+            "Size": "H:100 cm W:30 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "38.20 kg"
+        },
+        "Small Multi Shelf": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-24",
+            "Material": "",
+            "Size": "H:88 cm W:30 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "27.80 kg"
+        },
+        "Large Multi Shelf": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-23",
+            "Material": "",
+            "Size": "H:134 cm W:30 cm D: 100 cm",
+            "Availability": "In Stock",
+            "Weight": "42.80 kg"
+        },
+        "Multi-shelf Dresser": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-07",
+            "Material": "",
+            "Size": "H:175 cm W:135 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "112.60 kg",
+            "Note": "2 Parts"
+        },
+        "Corner Display Unit": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-056",
+            "Material": "Sheesham & Acacia wood",
+            "Size": "H:85 cm W:58 cm D: 178 cm",
+            "Availability": "In Stock",
+            "Weight": "70.00 kg"
+        },
+        "Square Display Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-49",
+            "Material": "",
+            "Size": "H:110 cm W:35 cm D: 110 cm",
+            "Availability": "Low Stock",
+            "Weight": "35.00 kg"
+        },
+        "Combination Display Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-43",
+            "Material": "",
+            "Size": "H:110 cm W:35 cm D: 178 cm",
+            "Availability": "Low Stock",
+            "Weight": "45.00 kg"
+        },
+        "Display Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-44",
+            "Material": "",
+            "Size": "H:100 cm W:35 cm D: 148 cm",
+            "Availability": "Low Stock",
+            "Weight": "38.00 kg"
+        },
+        "Glazed Display Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP21",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:180 cm W:90 cm D: 37 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "0.00 kg"
+        },
+        "Glazed Bookcase with Drawer": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-09",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "39.00 kg"
+        },
+        "Glazed Cabinet": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN10",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:120 cm W:86 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "49.00 kg"
+        },
+        "Display Cabinet": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-16",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:150 cm W:90 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "45.00 kg"
+        },
+        "Glass Display Cabinet": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-11",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:180 cm W:90 cm D: 36 cm",
+            "Availability": "In Stock",
+            "Weight": "51.00 kg"
+        },
+        "Large Multi Display Bookcase": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-15",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:185 cm W:90 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "49.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Ladder Display Unit": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-08",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:180 cm W:75 cm D: 47 cm",
+            "Availability": "In Stock",
+            "Weight": "35.00 kg",
+            "Note": "Part Assembly Required"
+        }
+    },
+    "Mirrors": {
+        "Rectangular Mirror": {
+            "Range Name": "Cuba Bedroom",
+            "Product Code": "CB-10",
+            "Material": "Sheesham",
+            "Size": "H:73 cm W:3 cm D: 105 cm",
+            "Availability": "Low Stock",
+            "Weight": "12.40 kg"
+        },
+        "Tall Mirror": {
+            "Range Name": "Cuba Bedroom",
+            "Product Code": "CB-11",
+            "Material": "Oak",
+            "Size": "H:58 cm W:3 cm D: 130 cm",
+            "Availability": "Low Stock",
+            "Weight": "13.00 kg"
+        },
+        "Cuba Sheesham Mirror": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-29",
+            "Material": "Sheesham",
+            "Size": "H:58 cm W:3 cm D: 88 cm",
+            "Availability": "Low Stock",
+            "Weight": "9.00 kg"
+        },
+        "Moda Oak Large Mirror": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-11",
+            "Material": "Solid Oak",
+            "Size": "H:75 cm W:105 cm D: 3 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg"
+        },
+        "Moda Oak Small Mirror": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-16",
+            "Material": "Solid Oak",
+            "Size": "H:60 cm W:90 cm D: 3 cm",
+            "Availability": "In Stock",
+            "Weight": "9.50 kg"
+        },
+        "Jali Mirror": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-057",
+            "Material": "Sheesham",
+            "Size": "H:70 cm W:3 cm D: 115 cm",
+            "Availability": "In Stock",
+            "Weight": "14.60 kg"
+        },
+        "Jali Small Mirror": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-058",
+            "Material": "Sheesham",
+            "Size": "H:72 cm W:3 cm D: 106 cm",
+            "Availability": "In Stock",
+            "Weight": "12.60 kg"
+        },
+        "Thacket Mirror": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-059",
+            "Material": "Sheesham",
+            "Size": "H:58 cm W:3 cm D: 71 cm",
+            "Availability": "Low Stock",
+            "Weight": "7.00 kg"
+        },
+        "Rustic Oak Mirror": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-32",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:60 cm W:75 cm D: 3 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "10.00 kg"
+        },
+        "Rustic Oak Wall Mirror": {
+            "Range Name": "Cherbourg Oak Bedroom",
+            "Product Code": "RT-15",
+            "Material": "Solid Oak with Oak Veneer",
+            "Size": "H:61 cm W:117 cm D: 30 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "15.00 kg"
+        },
+        "Earlswood Large Wall Mirrors": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP35",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:100 cm W:120 cm D: 3 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Wardley Oak Small Mirror": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-34",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:90 cm W:60 cm D: 2 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Alstead Painted Small Mirror": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN34",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:2 cm W:60 cm D: 90 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Colmar Natural Oak Wall Mirror": {
+            "Range Name": "Colmar Natural Oak Bedroom",
+            "Product Code": "OKNR-17",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:80 cm W:100 cm D: 4 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Alba Rough Sawn Mirror": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-15",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:75 cm W:100 cm D: 4 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Carno Oak Mirror": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-20",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:90 cm W:60 cm D: 2 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Occasional Items": {
+        "Cube Nest": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-14",
+            "Material": "Oak",
+            "Size": "H:58 cm W:35 cm D: 55 cm",
+            "Availability": "Low Stock",
+            "Weight": "20.80 kg"
+        },
+        "Long John Coffee Table": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-18",
+            "Material": "American White Oak",
+            "Size": "H:50 cm W:120 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "71.50 kg"
+        },
+        "Nest of 2 Tables": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-11",
+            "Material": "Oak",
+            "Size": "H:85 cm W:47 cm D: 50 cm",
+            "Availability": "Low Stock",
+            "Weight": "31.00 kg"
+        },
+        "Lamp Side Table": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-08",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:61 cm W:42 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "17.00 kg"
+        },
+        "Lamp Telephone Table": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-025",
+            "Material": "",
+            "Size": "H:30 cm W:30 cm D: 65 cm",
+            "Availability": "In Stock",
+            "Weight": "8.00 kg"
+        },
+        "Thacket Lamp Table": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-027",
+            "Material": "Solid Sheesham",
+            "Size": "H:40 cm W:40 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "10.80 kg"
+        },
+        "Chunky Nest of 3 Tables": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-024",
+            "Material": "Solid Sheesham",
+            "Size": "H:43 cm W:30 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "13.60 kg"
+        },
+        "E-Shaped Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-46",
+            "Material": "",
+            "Size": "H:53 cm W:30 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "21.40 kg"
+        },
+        "Nest Of Three Tables": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-48",
+            "Material": "Oak",
+            "Size": "H:58 cm W:40 cm D: 58 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "S-Shaped Unit": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-50",
+            "Material": "Sheesham",
+            "Size": "H:53 cm W:30 cm D: 70 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "Magazine Rack": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU30",
+            "Material": "Sheesham & Acacia wood",
+            "Size": "H:41 cm W:23 cm D: 41 cm",
+            "Availability": "In Stock",
+            "Weight": "2.00 kg"
+        },
+        "Lamp Table": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-07",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:58 cm W:45 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "12.00 kg"
+        },
+        "Small Hall Table": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP18",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:75 cm W:60 cm D: 33 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Office filling Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP19",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:78 cm W:62 cm D: 42 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Office Desk with Filling Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP20",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:80 cm W:125 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Hall Bench": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP32",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:75 cm W:100 cm D: 42 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Single Computer Desk": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP37",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:80 cm W:110 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Hall Table": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN03",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:80 cm W:40 cm D: 35 cm",
+            "Availability": "Low Stock",
+            "Weight": "28.00 kg"
+        },
+        "1 Hole Cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-19",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:43 cm W:43 cm D: 33 cm",
+            "Availability": "In Stock",
+            "Weight": "64.00 kg"
+        },
+        "2 Hole Cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-20",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:81 cm W:43 cm D: 30 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "19.00 kg"
+        },
+        "E Cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-39",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:60 cm W:45 cm D: 30 cm",
+            "Availability": "In Stock",
+            "Weight": "13.00 kg"
+        },
+        "S cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-40",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:60 cm W:30 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "14.00 kg"
+        },
+        "3 Hole Cube": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-21",
+            "Material": "Solid oak and Oak Veneers",
+            "Size": "H:119 cm W:50 cm D: 30 cm",
+            "Availability": "Low Stock",
+            "Weight": "25.00 kg"
+        },
+        "Petite Hallway Cupboard": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN22",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:80 cm W:75 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "26.00 kg"
+        },
+        "Lamp Table With Shelve": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-05",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:55 cm W:45 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Lamp Table With Drawer": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-10",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:58 cm W:40 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "9.00 kg"
+        },
+        "Circular Lamp Table": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-11",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:55 cm W:43 cm D: 43 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "8.00 kg"
+        },
+        "Circular Coffee Table": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-12",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:40 cm W:80 cm D: 80 cm",
+            "Availability": "Low Stock",
+            "Weight": "31.00 kg"
+        },
+        "Lamp table": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-07",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:70 cm W:45 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "17.00 kg"
+        },
+        "Sunbury Side Table": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-07",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:62 cm W:45 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Lamp Table With Two Drawers": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-13",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:73 cm W:45 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Side/lamp Table": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-17",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:60 cm W:39 cm D: 24 cm",
+            "Availability": "In Stock",
+            "Weight": "6.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Console Table": {
+        "Console Table": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN06",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:85 cm W:90 cm D: 36 cm",
+            "Availability": "In Stock",
+            "Weight": "30.00 kg"
+        },
+        "Large Console Table": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP36",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:80 cm W:150 cm D: 41 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Petite Console Table": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-06",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "30.00 kg"
+        },
+        "Small Console Table": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-37",
+            "Material": "Solid Oak And Oak Veneers",
+            "Size": "H:75 cm W:80 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "Console Table With Drawer": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-13",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:78 cm W:100 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "17.00 kg"
+        },
+        "Console Table 2 Drawers": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-03",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:78 cm W:97 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "Alba Rough Sawn Console Table": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-13",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:79 cm W:120 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Console Table": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-04",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:78 cm W:105 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Console table": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-06",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:80 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "21.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Console Table With Drawers": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-04",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:80 cm W:95 cm D: 30 cm",
+            "Availability": "In Stock",
+            "Weight": "24.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Nest Of Tables": {
+        "Cube Nest": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-14",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:50 cm W:50 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "20.00 kg"
+        },
+        "Nest of 2 Tables": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-06",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:54 cm W:45 cm D: 43 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "13.00 kg"
+        },
+        "Chunky Nest of 3 Tables": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-024",
+            "Material": "Solid Sheesham",
+            "Size": "H:43 cm W:30 cm D: 60 cm",
+            "Availability": "In Stock",
+            "Weight": "13.60 kg"
+        },
+        "Nest Of 3 Tables": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-023",
+            "Material": "Solid Sheesham",
+            "Size": "H:40 cm W:30 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "11.80 kg"
+        },
+        "Nest of Three Tables": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-30",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:49 cm W:52 cm D: 36 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "19.00 kg"
+        },
+        "Nest Of Three Tables": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-48",
+            "Material": "Oak",
+            "Size": "H:58 cm W:40 cm D: 58 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "Nest of 3 Tables": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-08",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "25.00 kg"
+        },
+        "Nest Of 2 Tables": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-06",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:50 cm W:57 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg"
+        },
+        "Nest Of 3 Table": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN08",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:50 cm W:57 cm D: 44 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "25.00 kg"
+        },
+        "Nest Of 2 Table": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-07",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:49 cm W:42 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "10.00 kg"
+        },
+        "Alba Rough Sawn Nest Of 2 Tables": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-12",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:55 cm W:55 cm D: 50 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Nest Of 2 Table": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-08",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:55 cm W:57 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Nest Of Tables": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-14",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:50 cm W:50 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "12.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Nest of Tables": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-13",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:55 cm W:50 cm D: 30 cm",
+            "Availability": "In Stock",
+            "Weight": "12.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Dining Tables": {
+        "Dining Table - 160 x 90": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-24",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:76 cm W:90 cm D: 160 cm",
+            "Availability": "In Stock",
+            "Weight": "49.50 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Dining Table - 140 x 90": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-39",
+            "Material": "",
+            "Size": "H:138 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "41.50 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Dining Table - 90 x 90": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-41",
+            "Material": "",
+            "Size": "H:88 cm W:88 cm D: 76 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "38.80 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Dining Table - 120 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-011",
+            "Material": "",
+            "Size": "H:118 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "35.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Dining Table - 140 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-012",
+            "Material": "",
+            "Size": "H:138 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "41.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Dining Table - 160 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-013",
+            "Material": "",
+            "Size": "H:158 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "45.60 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Dining Table - 180 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-014",
+            "Material": "",
+            "Size": "H:178 cm W:90 cm D: 76 cm",
+            "Availability": "In Stock",
+            "Weight": "46.20 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Thacket Dining Table - 200 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-015",
+            "Material": "",
+            "Size": "H:198 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "48.20 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Dining Table - 120 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-016",
+            "Material": "",
+            "Size": "H:118 cm W:90 cm D: 76 cm",
+            "Availability": "In Stock",
+            "Weight": "41.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Dining Table - 140 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-017",
+            "Material": "",
+            "Size": "H:138 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "46.80 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Dining Table - 160 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-018",
+            "Material": "",
+            "Size": "H:158 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "46.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Dining Table - 180 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-019",
+            "Material": "",
+            "Size": "H:178 cm W:90 cm D: 76 cm",
+            "Availability": "Low Stock",
+            "Weight": "52.20 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Chunky Dining Table - 200 x 90": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-020",
+            "Material": "Solid Sheesham",
+            "Size": "H:198 cm W:90 cm D: 76 cm",
+            "Availability": "Out of Stock (Available 11-12 Weeks)",
+            "Weight": "55.60 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Extending Dining Table ( 2 Leaves )": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-19",
+            "Material": "Solid Oak with Oak Veneer",
+            "Size": "H:77 cm W:132 cm D: 92 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "60.00 kg",
+            "Note": "Extended width is 198cm"
+        },
+        "Small Extending Dinning Table": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP22",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:77 cm W:120 cm D: 80 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Medium Extending Dining Table": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP23",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:77 cm W:132 cm D: 90 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Large Extending Dining Table": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP24",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:77 cm W:180 cm D: 90 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Dining Table": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-32",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "41.00 kg"
+        },
+        "Extending Dining Table 140-180": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-31",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:90 cm W:140 cm D: 76 cm",
+            "Availability": "In Stock",
+            "Weight": "42.00 kg"
+        },
+        "Extended Dining Table": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-21",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:76 cm W:140 cm D: 90 cm",
+            "Availability": "Low Stock",
+            "Weight": "49.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Circular Dining Table": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-18",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:78 cm W:105 cm D: 105 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "24.00 kg"
+        },
+        "Ext Dining Table 1250/1650": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-15",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:79 cm W:125 cm D: 90 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Ext dining table 1500/2000": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-16",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:79 cm W:150 cm D: 90 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Pedestal Ext Dining Table 1800/2300": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-17",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:79 cm W:180 cm D: 90 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "79.00 kg"
+        },
+        "Ciruclar Extended Dining Table": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-18",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:75 cm W:110 cm D: 110 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Extending Dining Table 120-160": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-33",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:90 cm W:120 cm D: 76 cm",
+            "Availability": "In Stock",
+            "Weight": "42.00 kg"
+        },
+        "Extending Dining Table 90-110": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-36",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:90 cm W:90 cm D: 76 cm",
+            "Availability": "In Stock",
+            "Weight": "42.00 kg"
+        },
+        "Sunbury Extended Dining Table": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-10",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:75 cm W:160 cm D: 85 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Oval Extending Dining Table": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-12",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:78 cm W:110 cm D: 110 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        }
+    },
+    "Dining Chairs": {
+        "Leather Chair - Red": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-43",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:107 cm W:45 cm D: 52 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Leather Chair - Beige": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-44",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:107 cm W:45 cm D: 52 cm",
+            "Availability": "In Stock",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Leather Chair - Brown": {
+            "Range Name": "Moda Oak Living & Dining",
+            "Product Code": "SDO-42",
+            "Material": "Solid Oak With Oak Veneers",
+            "Size": "H:107 cm W:45 cm D: 52 cm",
+            "Availability": "In Stock",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "High Back Slat Chair": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-036",
+            "Material": "Solid Sheesham",
+            "Size": "H:45 cm W:46 cm D: 109 cm",
+            "Availability": "In Stock",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Low Back Chair": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-038",
+            "Material": "Solid Sheesham",
+            "Size": "H:45 cm W:46 cm D: 105 cm",
+            "Availability": "In Stock",
+            "Weight": "21.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "High Back Chair": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-037",
+            "Material": "Solid Sheesham",
+            "Size": "H:45 cm W:46 cm D: 110 cm",
+            "Availability": "In Stock",
+            "Weight": "23.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Dining Chair": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-18",
+            "Material": "Pu and Metal",
+            "Size": "H:9 cm W:46 cm D: 6 cm",
+            "Availability": "Out of Stock",
+            "Weight": "1.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Painted Dining Chairs": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN30",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:98 cm W:48 cm D: 46 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "10.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Avon Beige Tweed Chair": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "AV-01",
+            "Material": "Legs Solid Oak - Fabric Tweed",
+            "Size": "H:106 cm W:47 cm D: 65 cm",
+            "Availability": "In Stock",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Avon Brown Tweed Chair": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "AV-02",
+            "Material": "Legs Solid Oak - Fabric Tweed",
+            "Size": "H:106 cm W:47 cm D: 65 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Avon Grey Polyster Chair": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "AV-05",
+            "Material": "Legs Solid Oak - Fabric Polyster",
+            "Size": "H:106 cm W:47 cm D: 65 cm",
+            "Availability": "In Stock",
+            "Weight": "19.20 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Epsom Chair Natural Leg Dark Grey Linen": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "EP-04",
+            "Material": "Legs Solid Oak Fabric Linen",
+            "Size": "H:89 cm W:43 cm D: 54 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Epsom Chair Natural Leg Grey Linen": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "EP-03",
+            "Material": "Legs Solid Oak Fabric Linen",
+            "Size": "H:89 cm W:43 cm D: 54 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "15.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Epsom Chair Natural Leg Brown Linen": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "EP-02",
+            "Material": "Legs Solid Oak Fabric Linen",
+            "Size": "H:89 cm W:43 cm D: 54 cm",
+            "Availability": "Low Stock",
+            "Weight": "15.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Epsom Chair Natural Leg Mocha Linen": {
+            "Range Name": "Dining Chairs",
+            "Product Code": "EP-01",
+            "Material": "Legs Solid Oak Fabric Linen",
+            "Size": "H:89 cm W:43 cm D: 54 cm",
+            "Availability": "In Stock",
+            "Weight": "15.00 kg",
+            "Note": "Sold In Pairs"
+        },
+        "Chair": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-19",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "34.00 kg"
+        },
+        "Dining Chair Upholstered": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-19",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:103 cm W:41 cm D: 59 cm",
+            "Availability": "In Stock",
+            "Weight": "40.00 kg"
+        },
+        "Alba Rough Sawn Dining Bench": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-03",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:45 cm W:118 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Dining Bench": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-11",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:45 cm W:160 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Chair Upholstered": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-13",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:102 cm W:46 cm D: 57 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "New Oak Dining Chair": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-30N",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:102 cm W:42 cm D: 46 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg",
+            "Note": "SOLD IN PAIRS"
+        },
+        "Carno Dining Bench": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-22",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:45 cm W:114 cm D: 35 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "11.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Upholstered Dining Chair": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-23",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:104 cm W:44 cm D: 56 cm",
+            "Availability": "In Stock",
+            "Weight": "1.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Dining Bench": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-11",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:46 cm W:109 cm D: 32 cm",
+            "Availability": "In Stock",
+            "Weight": "16.00 kg",
+            "Note": "Part Assembly Required"
+        }
+    },
+    "Sideboards": {
+        "Small Sideboard": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-04",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:80 cm D: 35 cm",
+            "Availability": "Low Stock",
+            "Weight": "24.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Large Sideboard": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-03",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:135 cm D: 40 cm",
+            "Availability": "Low Stock",
+            "Weight": "41.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Standard Sideboard": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN17",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:90 cm W:115 cm D: 40 cm",
+            "Availability": "Low Stock",
+            "Weight": "39.00 kg"
+        },
+        "Small Cupboard": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-35",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:80 cm W:80 cm D: 38 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "28.50 kg"
+        },
+        "Sideboard with Winerack": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-37",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:85 cm W:150 cm D: 40 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "57.00 kg"
+        },
+        "Petite Sideboard": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP01",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:85 cm W:85 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "36.00 kg"
+        },
+        "Large 3 Drawer/ 3 Door Sideboard": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP03",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:85 cm W:135 cm D: 41 cm",
+            "Availability": "In Stock",
+            "Weight": "47.00 kg"
+        },
+        "Petite cupboard": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP07",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:76 cm W:76 cm D: 36 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "11.00 kg"
+        },
+        "Small Petite Cupboard": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP08",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:76 cm W:76 cm D: 36 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Petite Wine Rack with drawer": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP26",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:100 cm W:60 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Large 6 drawer / 2 door large Sideboard": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP27",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:85 cm W:150 cm D: 41 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Tall Wine Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP38",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:160 cm W:72 cm D: 34 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Small Sideboard with Doors": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-01",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:78 cm W:90 cm D: 45 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "33.00 kg"
+        },
+        "Small Sideboard with Drawers": {
+            "Range Name": "Osby Oak Living & Dining",
+            "Product Code": "OS-02",
+            "Material": "Solid Oak with Oak Veneers.",
+            "Size": "H:78 cm W:97 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "41.00 kg"
+        },
+        "Storage Cabinet": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-05",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:80 cm D: 35 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "20.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Hallway Cupboard": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-22",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "26.00 kg"
+        },
+        "Large 2 Door 3 Drawer Sideboard": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-15",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "55.00 kg"
+        },
+        "Large 3 Doors 3 Drawer Sideboard": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-16",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "39.00 kg"
+        },
+        "Glazed Cabinet": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-10",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "49.00 kg"
+        },
+        "Wine Rack Sideboard": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-19",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "40.00 kg"
+        },
+        "Large Sideboard 3 door 3 drawer": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN16",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:90 cm W:135 cm D: 40 cm",
+            "Availability": "Low Stock",
+            "Weight": "44.00 kg"
+        },
+        "Sideboard": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-02",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:80 cm W:100 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "39.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Open Sideboard": {
+            "Range Name": "Skien Oak Living & Dining",
+            "Product Code": "TRO-03",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:85 cm W:95 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "31.00 kg"
+        },
+        "Alba Rough Sawn 2 Drawer 2 Door Sideboard": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-05",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:79 cm W:102 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Standard Sideboard": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-02",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:86 cm W:105 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Large Sideboard Wine Rack": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-01",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:86 cm W:150 cm D: 45 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Large Sideboard": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-03",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:86 cm W:150 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Larder Unit": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-09",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:180 cm W:105 cm D: 55 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Extra Large/Long Sideboard": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-02",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:85 cm W:170 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "56.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Large Drinks/Store Cabinet": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-17",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:113 cm W:115 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "48.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Wine Rack With Drawer": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-18",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:90 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "28.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Sideboard With Drawers": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-01",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:115 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "36.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "2 Door Cabinet": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-03",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:80 cm W:95 cm D: 38 cm",
+            "Availability": "Low Stock",
+            "Weight": "33.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Dressers": {
+        "Small Dresser": {
+            "Range Name": "Colmar Natural Oak Living & Dining",
+            "Product Code": "OKCN-21",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:183 cm W:97 cm D: 45 cm",
+            "Availability": "Low Stock",
+            "Weight": "67.00 kg"
+        },
+        "Multi-shelf Dresser": {
+            "Range Name": "Cuba Living & Dining",
+            "Product Code": "CU-07",
+            "Material": "",
+            "Size": "H:175 cm W:135 cm D: 45 cm",
+            "Availability": "In Stock",
+            "Weight": "112.60 kg",
+            "Note": "2 Parts"
+        },
+        "Large Dresser": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-41",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Out of Stock",
+            "Weight": "84.00 kg"
+        },
+        "Petite Dresser": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP42",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:200 cm W:85 cm D: 37 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Medium Dresser": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP44",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:200 cm W:135 cm D: 41 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Standard Dresser": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-40",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "Low Stock",
+            "Weight": "88.00 kg"
+        },
+        "Dresser": {
+            "Range Name": "Alstead Painted Living & Dining",
+            "Product Code": "LN40",
+            "Material": "Solid Oak-Oak veneers/Mdf/Acacia",
+            "Size": "H:205 cm W:115 cm D: 40 cm",
+            "Availability": "Out of Stock (Available in 16 Weeks)",
+            "Weight": "88.00 kg"
+        },
+        "Sunbury Large Dresser": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-15",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:205 cm W:150 cm D: 39 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        }
+    },
+    "Wine Racks": {
+        "Wine Bottle Rack": {
+            "Range Name": "Jali Indian",
+            "Product Code": "SH-033",
+            "Material": "Sheesham",
+            "Size": "H:62 cm W:35 cm D: 71 cm",
+            "Availability": "In Stock",
+            "Weight": "16.20 kg"
+        },
+        "Sideboard with Winerack": {
+            "Range Name": "Cherbourg Oak Living & Dining",
+            "Product Code": "VCL-37",
+            "Material": "Solid Oak With Oak Veneer",
+            "Size": "H:85 cm W:150 cm D: 40 cm",
+            "Availability": "Out of Stock (Available 3-4 Weeks)",
+            "Weight": "57.00 kg"
+        },
+        "Petite Wine Rack with drawer": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP26",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:100 cm W:60 cm D: 40 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Tall Wine Cabinet": {
+            "Range Name": "Earlswood Oak Living & Dining",
+            "Product Code": "TP38",
+            "Material": "Solid Oak with Oak Veneers",
+            "Size": "H:160 cm W:72 cm D: 34 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Wine Rack Sideboard": {
+            "Range Name": "Wardley Oak Living & Dining",
+            "Product Code": "SK-19",
+            "Material": "Solid Oak and Oak Veneers",
+            "Size": "H:0 cm W:0 cm D: 0 cm",
+            "Availability": "In Stock",
+            "Weight": "40.00 kg"
+        },
+        "Sunbury Large Sideboard Wine Rack": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-01",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:86 cm W:150 cm D: 45 cm",
+            "Availability": "Low Stock",
+            "Weight": "0.00 kg"
+        },
+        "Large Drinks/Store Cabinet": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-17",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:113 cm W:115 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "48.00 kg",
+            "Note": "Fully Assembled"
+        },
+        "Wine Rack With Drawer": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-18",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:80 cm W:90 cm D: 37 cm",
+            "Availability": "In Stock",
+            "Weight": "28.00 kg",
+            "Note": "Fully Assembled"
+        }
+    },
+    "Dining Bench": {
+        "Alba Rough Sawn Dining Bench": {
+            "Range Name": "Alba Rough Sawn Living & Dining",
+            "Product Code": "RS-03",
+            "Material": "Solid Oak & Oak Venner",
+            "Size": "H:45 cm W:118 cm D: 35 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Sunbury Dining Bench": {
+            "Range Name": "Sunbury Painted Living & Dining",
+            "Product Code": "SB-11",
+            "Material": "Solid Oak & Oak Venner & Other Woods",
+            "Size": "H:45 cm W:160 cm D: 38 cm",
+            "Availability": "In Stock",
+            "Weight": "0.00 kg"
+        },
+        "Carno Dining Bench": {
+            "Range Name": "Carno Oak Living & Dining",
+            "Product Code": "HB-22",
+            "Material": "Solid Oak + Oak Veneers",
+            "Size": "H:45 cm W:114 cm D: 35 cm",
+            "Availability": "Out of Stock (Available 5-6 Weeks)",
+            "Weight": "11.00 kg",
+            "Note": "Part Assembly Required"
+        },
+        "Dining Bench": {
+            "Range Name": "Wharf Oak Living & Dining",
+            "Product Code": "HD-11",
+            "Material": "Solid Oak + Oak Veneers + Metal",
+            "Size": "H:46 cm W:109 cm D: 32 cm",
+            "Availability": "In Stock",
+            "Weight": "16.00 kg",
+            "Note": "Part Assembly Required"
+        }
+    }
+}
