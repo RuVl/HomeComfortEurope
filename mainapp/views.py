@@ -74,22 +74,8 @@ def login(request):
         # TODO Залогинить пользователя
 
 
-def become_a_stocklist(request):
-    if request.method == 'GET':
-        # TODO сюда вставить данные пользователя, если он сейчас залогинился, иначе - отправить его на страницу регистрации
-        # Если каких-то данных нет - оставь ''
-        context = {
-                      'title': 'Design For Living',
-                      'firstName': '',
-                      'lastName': '',
-                      'email': '',
-                      'phone': '',
-                      'postCode': ''
-                  } | main_context
-
-        return render(request, '../../../HomeComfortEurope/mainapp/templates/become_a_stocklist.html', context=context)
-    elif request.method == 'POST':
-        return index(request)
+def forgot_password():
+    pass
 
 
 # Complete
@@ -100,6 +86,10 @@ def search_result(request):
     return render(request, 'search_result.html', context=context)
 
 
+def become_a_stocklist():
+    pass
+
+
 def news(request):
     context = {
         'title': 'News'
@@ -108,13 +98,12 @@ def news(request):
     return render(request, 'news.html', context=context)
 
 
-# Complete
-def concrete_news(request, concrete: str):
+def concrete_news(request, news: str):
     context = {
-                  'title': concrete.replace('_', ' ')
-              } | main_context
+        'title': news.replace('_', ' ')
+    } | main_context
 
-    return render(request, f'news/{concrete}.html', context=context)
+    return render(request, f'news/{news}.html', context=context)
 
 
 # Complete
@@ -126,46 +115,25 @@ def about_us(request):
     return render(request, 'our_story.html', context=context)
 
 
-# Complete
-def ethos(request):
-    context = {
-                  'title': 'Our Story'
-              } | main_context
-
-    return render(request, 'ethos.html', context=context)
+def ethos():
+    pass
 
 
-# Complete
-def design_studio(request):
-    context = {
-                  'title': 'Design For Living'
-              } | main_context
-
-    return render(request, 'design_studio.html', context=context)
+def design_studio():
+    pass
 
 
-# Complete
-def fulfilment(request):
-    context = {
-                  'title': 'Design For Living'
-              } | main_context
-
-    return render(request, 'fulfilment.html', context=context)
+def fulfilment():
+    pass
 
 
-# Complete
-def privacy_policy(request):
-    context = {
-                  'title': 'Design For Living'
-              } | main_context
-
-    return render(request, 'privacy_policy.html', context=context)
+def privacy_policy():
+    pass
 
 
-# Complete
-def cookies(request):
-    context = {
-                  'title': 'Design For Living'
-              } | main_context
+def cookies():
+    pass
 
-    return render(request, 'cookies.html', context=context)
+
+def contact_us():
+    pass

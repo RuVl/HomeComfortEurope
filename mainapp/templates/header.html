@@ -51,12 +51,10 @@
             </ul>
         </div>
         <nav>
-{# MAIN categories #}
             <ul class="navigation dropdown">
                 <li><a href="{% url 'index' %}">Home</a></li>
-{# ALL categories #}
                 <li class="mob-collection bg">
-                    <a href="#">Collections</a>
+                    <a href="https://www.heritagefurnitureuk.com/furniture-collection.php?c=OA==-8">Collections</a>
                     <ul class="submenu">
                         <style>
                             .rangesSubMenu {
@@ -93,46 +91,223 @@
                     width:100%;text-align:  center;color: #fff;
                 }
                         </style>
-                        {% for category in categories %}
                         <li>
-                            <a href="{{ category url }}" title="{{ category name }}">{{ category name }}</a>
+                            <a href="https://www.heritagefurnitureuk.com/category.php?c=OA==&8" title="All Collection">All Collection</a>
                             <ul class="submenu rangesSubMenu">
                                 <div class="leftList">
                                     <ul>
-                                        {% for subcategory in category.... %}
-                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory id }}">
-                                            <a href="{{ subcategory url }}"><small>{{ subcategory name }}</small></a>
-                                        </li>
-                                        {% endfor %}
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_68"><a href="category.php?c=Njg=&68"><small>Alba Rough Sawn Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_58"><a href="category.php?c=NTg=&58"><small>Alstead Painted Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_22"><a href="category.php?c=MjI=&22"><small>Bayonne Oak Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_57"><a href="category.php?c=NTc=&57"><small>Branford Painted Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_55"><a href="category.php?c=NTU=&55"><small>Burnham Oak Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_70"><a href="category.php?c=NzA=&70"><small>Carno Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_19"><a href="category.php?c=MTk=&19"><small>Cherbourg Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_16"><a href="category.php?c=MTY=&16"><small>Chunky Pine Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_65"><a href="category.php?c=NjU=&65"><small>Colmar Natural Oak Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_66"><a href="category.php?c=NjY=&66"><small>Colmar Natural Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_56"><a href="category.php?c=NTY=&56"><small>Corbett Oak Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_13"><a href="category.php?c=MTM=&13"><small>Cuba Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_51"><a href="category.php?c=NTE=&51"><small>Earlswood Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_63"><a href="category.php?c=NjM=&63"><small>Harkuta Oak Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_18"><a href="category.php?c=MTg=&18"><small>Hendon Pine Bedroom</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_15"><a href="category.php?c=MTU=&15"><small>Jali Indian</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_14"><a href="category.php?c=MTQ=&14"><small>Moda Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_53"><a href="category.php?c=NTM=&53"><small>Osby Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_60"><a href="category.php?c=NjA=&60"><small>Skien Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_67"><a href="category.php?c=Njc=&67"><small>Sunbury Painted Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_54"><a href="category.php?c=NTQ=&54"><small>Wardley Oak Living &amp; Dining</small></a></li>
+                                        <li style="border-bottom: 0;" class="rangeHover" id="cat_69"><a href="category.php?c=Njk=&69"><small>Wharf Oak Living &amp; Dining</small></a></li>
                                     </ul>
                                 </div>
-
-                                {% for subcategory in category.... %}
-                                <div class="rangeImageContainer" id="cat_{{ subcategory id }}" data-order="2_0">
-                                    <a href="{{ subcategory url }}">
-                                        <img src="{{ subcategory image }}" class="rangeImg">
+                                <div class="rangeImageContainer" id="cat_68" data-order="1_0">
+                                    <a href="category.php?c=Njg=&68">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI121011546517031_Rough-Sawn-Oak-Cameo-6.jpg" class="rangeImg">
                                         <div class="rangeTitle">
-                                            <p class="rangeTitleText">{{ subcategory name }}</p>
+                                            <p class="rangeTitleText">Alba Rough Sawn Living &amp; Dining</p>
                                         </div>
                                     </a>
                                 </div>
-                                {% endfor %}
-                            </ul>
+                                <div class="rangeImageContainer" id="cat_58" data-order="1_1">
+                                    <a href="category.php?c=NTg=&58">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI616301516111651_DD-360x350---Alstead.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Alstead Painted Living &amp; Dining</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_22" data-order="1_2">
+                                    <a href="category.php?c=MjI=&22">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI696111516112519_DD-360x350---Bayonne.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Bayonne Oak Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_57" data-order="1_3"><a href="category.php?c=NTc=&57">
+                                    <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI298281516111991_DD-360x350---Branford.jpg" class="rangeImg">
+                                    <div class="rangeTitle">
+                                        <p class="rangeTitleText">Branford Painted Bedroom</p>
+                                    </div>
+                                </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_55" data-order="1_4">
+                                    <a href="category.php?c=NTU=&55">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI945121516112829_DD-360x350---Burnham.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Burnham Oak Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_70" data-order="1_5">
+                                    <a href="category.php?c=NzA=&70">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI068111580215625_Carno-slider.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Carno Oak Living &amp; Dining</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_19" data-order="1_6">
+                                    <a href="category.php?c=MTk=&19">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI537431516113532_DD-360x350---Cherbourg-living.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Cherbourg Oak Living &amp; Dining</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_16" data-order="1_7">
+                                    <a href="category.php?c=MTY=&16">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI844181516113977_DD-360x350---Chunky.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Chunky Pine Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_65" data-order="1_8">
+                                    <a href="category.php?c=NjU=&65">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI454321526038803_OKNR_Main.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Colmar Natural Oak Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_66" data-order="1_9">
+                                    <a href="category.php?c=NjY=&66">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI265091526038828_OKCN-main.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Colmar Natural Oak Living &amp; Dining</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_56" data-order="1_10">
+                                    <a href="category.php?c=NTY=&56">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI079951516105987_DD-360x350---Corbet.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Corbett Oak Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_13" data-order="1_11">
+                                    <a href="category.php?c=MTM=&13">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI639651516114456_DD-360x350---Cuba-Sheesham-bed.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Cuba Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_51" data-order="1_12"><a href="category.php?c=NTE=&51">
+                                    <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI396881516105513_DD-360x350---.jpg" class="rangeImg">
+                                    <div class="rangeTitle">
+                                        <p class="rangeTitleText">Earlswood Oak Living &amp; Dining</p>
+                                    </div>
+                                </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_63" data-order="1_13">
+                                    <a href="category.php?c=NjM=&63">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI894541516107577_DD-360x350---Harkuta.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Harkuta Oak Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_18" data-order="1_14">
+                                    <a href="category.php?c=MTg=&18">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI147321516115261_DD-360x350---Hendon.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Hendon Pine Bedroom</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_15" data-order="1_15">
+                                    <a href="category.php?c=MTU=&15">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI655721516115533_DD-360x350---Jali.jpg" class="rangeImg">
+                                        <div class="rangeTitle">
+                                            <p class="rangeTitleText">Jali Indian</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="rangeImageContainer" id="cat_14" data-order="1_16">
+                                    <a href="category.php?c=MTQ=&14">
+                                        <img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI540741516116140_DD-360x350---moda.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Moda Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_53" data-order="1_17"><a href="category.php?c=NTM=&53"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI982391516103883_800-x-800-Osby.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Osby Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_60" data-order="1_18"><a href="category.php?c=NjA=&60"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI442211516184135_500x500-skien.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Skien Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_67" data-order="1_19"><a href="category.php?c=Njc=&67"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI077171546517978_Sunbury-sideboard.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Sunbury Painted Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_54" data-order="1_20"><a href="category.php?c=NTQ=&54"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI949061516106367_DD-360x350---Wardley.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Wardley Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_69" data-order="1_21"><a href="category.php?c=Njk=&69"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI416821580215608_Wharf-Indistrial-homepage-slider.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Wharf Oak Living &amp; Dining</p></div></a></div></ul>
                         </li>
-                        {% endfor %}
+                        <li>
+                            <a href="https://www.heritagefurnitureuk.com/category.php?c=NA==&4" title="Bedroom">Bedroom</a>
+                            <ul class="submenu rangesSubMenu">
+                <div class="leftList">
+                    <ul><li style="border-bottom: 0;" class="rangeHover" id="cat_22"><a href="category.php?c=MjI=&22"><small>Bayonne Oak Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_57"><a href="category.php?c=NTc=&57"><small>Branford Painted Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_55"><a href="category.php?c=NTU=&55"><small>Burnham Oak Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_20"><a href="category.php?c=MjA=&20"><small>Cherbourg Oak Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_16"><a href="category.php?c=MTY=&16"><small>Chunky Pine Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_65"><a href="category.php?c=NjU=&65"><small>Colmar Natural Oak Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_56"><a href="category.php?c=NTY=&56"><small>Corbett Oak Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_13"><a href="category.php?c=MTM=&13"><small>Cuba Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_63"><a href="category.php?c=NjM=&63"><small>Harkuta Oak Bedroom</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_18"><a href="category.php?c=MTg=&18"><small>Hendon Pine Bedroom</small></a></li></ul></div><div class="rangeImageContainer" id="cat_22" data-order="2_0"><a href="category.php?c=MjI=&22"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI696111516112519_DD-360x350---Bayonne.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Bayonne Oak Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_57" data-order="2_1"><a href="category.php?c=NTc=&57"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI298281516111991_DD-360x350---Branford.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Branford Painted Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_55" data-order="2_2"><a href="category.php?c=NTU=&55"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI945121516112829_DD-360x350---Burnham.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Burnham Oak Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_20" data-order="2_3"><a href="category.php?c=MjA=&20"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI528071516113251_DD-360x350---Cherbourg-bed.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Cherbourg Oak Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_16" data-order="2_4"><a href="category.php?c=MTY=&16"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI844181516113977_DD-360x350---Chunky.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Chunky Pine Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_65" data-order="2_5"><a href="category.php?c=NjU=&65"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI454321526038803_OKNR_Main.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Colmar Natural Oak Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_56" data-order="2_6"><a href="category.php?c=NTY=&56"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI079951516105987_DD-360x350---Corbet.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Corbett Oak Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_13" data-order="2_7"><a href="category.php?c=MTM=&13"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI639651516114456_DD-360x350---Cuba-Sheesham-bed.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Cuba Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_63" data-order="2_8"><a href="category.php?c=NjM=&63"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI894541516107577_DD-360x350---Harkuta.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Harkuta Oak Bedroom</p></div></a></div><div class="rangeImageContainer" id="cat_18" data-order="2_9"><a href="category.php?c=MTg=&18"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI147321516115261_DD-360x350---Hendon.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Hendon Pine Bedroom</p></div></a></div></ul>
+                        </li>
+                        <li>
+                            <a href="https://www.heritagefurnitureuk.com/category.php?c=NQ==&5" title="Living Room">Living Room</a>
+                            <ul class="submenu rangesSubMenu">
+                <div class="leftList">
+                    <ul><li style="border-bottom: 0;" class="rangeHover" id="cat_68"><a href="category.php?c=Njg=&68"><small>Alba Rough Sawn Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_58"><a href="category.php?c=NTg=&58"><small>Alstead Painted Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_70"><a href="category.php?c=NzA=&70"><small>Carno Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_19"><a href="category.php?c=MTk=&19"><small>Cherbourg Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_66"><a href="category.php?c=NjY=&66"><small>Colmar Natural Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_12"><a href="category.php?c=MTI=&12"><small>Cuba Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_51"><a href="category.php?c=NTE=&51"><small>Earlswood Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_15"><a href="category.php?c=MTU=&15"><small>Jali Indian</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_14"><a href="category.php?c=MTQ=&14"><small>Moda Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_53"><a href="category.php?c=NTM=&53"><small>Osby Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_60"><a href="category.php?c=NjA=&60"><small>Skien Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_67"><a href="category.php?c=Njc=&67"><small>Sunbury Painted Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_54"><a href="category.php?c=NTQ=&54"><small>Wardley Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_69"><a href="category.php?c=Njk=&69"><small>Wharf Oak Living &amp; Dining</small></a></li></ul></div><div class="rangeImageContainer" id="cat_68" data-order="3_0"><a href="category.php?c=Njg=&68"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI121011546517031_Rough-Sawn-Oak-Cameo-6.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Alba Rough Sawn Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_58" data-order="3_1"><a href="category.php?c=NTg=&58"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI616301516111651_DD-360x350---Alstead.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Alstead Painted Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_70" data-order="3_2"><a href="category.php?c=NzA=&70"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI068111580215625_Carno-slider.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Carno Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_19" data-order="3_3"><a href="category.php?c=MTk=&19"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI537431516113532_DD-360x350---Cherbourg-living.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Cherbourg Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_66" data-order="3_4"><a href="category.php?c=NjY=&66"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI265091526038828_OKCN-main.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Colmar Natural Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_12" data-order="3_5"><a href="category.php?c=MTI=&12"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI015361516114697_DD-360x350---cuba-sh-liv.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Cuba Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_51" data-order="3_6"><a href="category.php?c=NTE=&51"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI396881516105513_DD-360x350---.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Earlswood Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_15" data-order="3_7"><a href="category.php?c=MTU=&15"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI655721516115533_DD-360x350---Jali.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Jali Indian</p></div></a></div><div class="rangeImageContainer" id="cat_14" data-order="3_8"><a href="category.php?c=MTQ=&14"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI540741516116140_DD-360x350---moda.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Moda Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_53" data-order="3_9"><a href="category.php?c=NTM=&53"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI982391516103883_800-x-800-Osby.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Osby Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_60" data-order="3_10"><a href="category.php?c=NjA=&60"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI442211516184135_500x500-skien.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Skien Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_67" data-order="3_11"><a href="category.php?c=Njc=&67"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI077171546517978_Sunbury-sideboard.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Sunbury Painted Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_54" data-order="3_12"><a href="category.php?c=NTQ=&54"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI949061516106367_DD-360x350---Wardley.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Wardley Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_69" data-order="3_13"><a href="category.php?c=Njk=&69"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI416821580215608_Wharf-Indistrial-homepage-slider.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Wharf Oak Living &amp; Dining</p></div></a></div></ul>
+                        </li>
+                        <li>
+                            <a href="https://www.heritagefurnitureuk.com/category.php?c=Mw==&3" title="Dining Room">Dining Room</a>
+                            <ul class="submenu rangesSubMenu">
+                                <div class="leftList">
+                    <ul><li style="border-bottom: 0;" class="rangeHover" id="cat_68"><a href="category.php?c=Njg=&68"><small>Alba Rough Sawn Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_58"><a href="category.php?c=NTg=&58"><small>Alstead Painted Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_70"><a href="category.php?c=NzA=&70"><small>Carno Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_19"><a href="category.php?c=MTk=&19"><small>Cherbourg Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_66"><a href="category.php?c=NjY=&66"><small>Colmar Natural Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_12"><a href="category.php?c=MTI=&12"><small>Cuba Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_51"><a href="category.php?c=NTE=&51"><small>Earlswood Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_15"><a href="category.php?c=MTU=&15"><small>Jali Indian</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_14"><a href="category.php?c=MTQ=&14"><small>Moda Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_53"><a href="category.php?c=NTM=&53"><small>Osby Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_60"><a href="category.php?c=NjA=&60"><small>Skien Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_67"><a href="category.php?c=Njc=&67"><small>Sunbury Painted Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_54"><a href="category.php?c=NTQ=&54"><small>Wardley Oak Living &amp; Dining</small></a></li><li style="border-bottom: 0;" class="rangeHover" id="cat_69"><a href="category.php?c=Njk=&69"><small>Wharf Oak Living &amp; Dining</small></a></li></ul></div><div class="rangeImageContainer" id="cat_68" data-order="4_0"><a href="category.php?c=Njg=&68"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI121011546517031_Rough-Sawn-Oak-Cameo-6.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Alba Rough Sawn Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_58" data-order="4_1"><a href="category.php?c=NTg=&58"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI616301516111651_DD-360x350---Alstead.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Alstead Painted Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_70" data-order="4_2"><a href="category.php?c=NzA=&70"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI068111580215625_Carno-slider.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Carno Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_19" data-order="4_3"><a href="category.php?c=MTk=&19"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI537431516113532_DD-360x350---Cherbourg-living.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Cherbourg Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_66" data-order="4_4"><a href="category.php?c=NjY=&66"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI265091526038828_OKCN-main.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Colmar Natural Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_12" data-order="4_5"><a href="category.php?c=MTI=&12"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI015361516114697_DD-360x350---cuba-sh-liv.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Cuba Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_51" data-order="4_6"><a href="category.php?c=NTE=&51"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI396881516105513_DD-360x350---.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Earlswood Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_15" data-order="4_7"><a href="category.php?c=MTU=&15"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI655721516115533_DD-360x350---Jali.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Jali Indian</p></div></a></div><div class="rangeImageContainer" id="cat_14" data-order="4_8"><a href="category.php?c=MTQ=&14"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI540741516116140_DD-360x350---moda.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Moda Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_53" data-order="4_9"><a href="category.php?c=NTM=&53"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI982391516103883_800-x-800-Osby.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Osby Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_60" data-order="4_10"><a href="category.php?c=NjA=&60"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI442211516184135_500x500-skien.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Skien Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_67" data-order="4_11"><a href="category.php?c=Njc=&67"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI077171546517978_Sunbury-sideboard.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Sunbury Painted Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_54" data-order="4_12"><a href="category.php?c=NTQ=&54"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI949061516106367_DD-360x350---Wardley.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Wardley Oak Living &amp; Dining</p></div></a></div><div class="rangeImageContainer" id="cat_69" data-order="4_13"><a href="category.php?c=Njk=&69"><img src="https://www.heritagefurnitureuk.com/uploads/category-design-display-imgs/DI416821580215608_Wharf-Indistrial-homepage-slider.jpg" class="rangeImg"><div class="rangeTitle"><p class="rangeTitleText">Wharf Oak Living &amp; Dining</p></div></a></div></ul>
+                        </li>
                     </ul>
                 </li>
-{# Subcategories #}
-            {% for category in categories %}
                 <li class="mob-collection bg">
-                    <a href="{{ category url }}">{{ category name }}</a>
+                    <a href="https://www.heritagefurnitureuk.com/bedroom-furniture.php?c=NA==-4">Bedroom</a>
                     <ul class="submenu">
-                        {% for subcategory in category.... %}
-                            <li><a href="{{ subcategory url }}" title="{{ subcategory name }}">{{ subcategory name }}</a></li>
-                        {% endfor %}
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MjM=&23" title="Chests">Chests</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MzI=&32" title="Wardrobes">Wardrobes</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MzM=&33" title="Beds">Beds</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MzQ=&34" title="Dressing Tables">Dressing Tables</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=Mzc=&37" title="Dressing Table Sets">Dressing Table Sets</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=Mzg=&38" title="Bedside Cabinets">Bedside Cabinets</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=Mzk=&39" title="Blanket Boxes">Blanket Boxes</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NDY=&46" title="Bedroom Mirrors">Bedroom Mirrors</a></li>
                     </ul>
                 </li>
-            {% endfor %}
+                <li class="mob-collection bg">
+                    <a href="https://www.heritagefurnitureuk.com/living-furniture.php?c=NQ==-5">Living Room</a>
+                    <ul class="submenu">
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=Mjk=&29" title="TV and Hi-Fi Cabinets">TV and Hi-Fi Cabinets</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MzA=&30" title="Coffee Tables">Coffee Tables</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MzE=&31" title="Bookcases">Bookcases</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NDI=&42" title="CD &amp; DVD Storage">CD &amp; DVD Storage</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NDM=&43" title="Display Cabinets">Display Cabinets</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NDQ=&44" title="Mirrors">Mirrors</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NDU=&45" title="Occasional Items">Occasional Items</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NzI=&72" title="Console Table">Console Table</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NzY=&76" title="Nest Of Tables">Nest Of Tables</a></li>
+                    </ul>
+                </li>
+                <li class="mob-collection bg"><a href="https://www.heritagefurnitureuk.com/dining-furniture.php?c=Mw==-3">Dining Room</a>
+                    <ul class="submenu">
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MjQ=&24" title="Dining Tables">Dining Tables</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MjU=&25" title="Dining Chairs">Dining Chairs</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=MjY=&26" title="Sideboards">Sideboards</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=Mjc=&27" title="Dressers">Dressers</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=Mjg=&28" title="Mirrors">Mirrors</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NDc=&47" title="Wine Racks">Wine Racks</a></li>
+                        <li><a href="https://www.heritagefurnitureuk.com/category.php?c=NzE=&71" title="Dining Bench">Dining Bench</a></li></ul></li>
+                <li><a href="{{ stockist }}">Find A Stockist</a></li>
+                <li class="no-bg"><a href="{{ contact_us }}">Contact Us</a></li>
             </ul>
             <a class="mob-menu" href="javascript:void(0)">
                 <span class="one"></span>
