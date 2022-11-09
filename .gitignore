@@ -4,3 +4,5 @@
 ./mainapp/migrations/
 *.DS_Store
 ./identifier.sqlite
+
+.DS_Store
