@@ -1,3 +1,6 @@
+{% extends 'for_content.html' %}
+{% load static %}
+
 {% block content %}
 <a href="#top" id="bottom"></a>
 <div class="container">
@@ -5,9 +8,9 @@
         <div class="left-content">
             <h1>From Small Things, Big Things Grow</h1>
             <p>Established in 2005 as a family-run business, Heritage furniture unites form and function with quality and affordability. Our signature collections are testament to innovative British design and a master level of craftsmanship. Every day, we tranform beautiful wood into extraordinary furniture.</p>
-            <p>Read our brand's story <a href="https://www.heritagefurnitureuk.com/our-story.php" class="readLink">here</a>.</p>
+            <p>Read our brand's story <a href="{% url 'about_us' %}" class="readLink">here</a>.</p>
         </div>
-        <div class="right-content"><img src="image/Heritage-Furniture-Wesbite-Visual-10.jpg" alt="image" /></div>
+        <div class="right-content"><img src="{% static 'mainapp/images/Heritage-Furniture-Wesbite-Visual-10.jpg' %}" alt="image"/></div>
         <div class="clear"></div>
     </div>
     <div class="elegent">
@@ -22,7 +25,7 @@
                         <h2>Modern Industrial Style</h2>
                         <h1>Wharf</h1>
                         Imbued with the rich, dark warmth and rustic appeal of rough-sawn solid oak, combined with sturdy black metal frames that lend each piece a loft-living-style industrial feel.<br />
-                        <br type="_moz" />				<input type="button" value="View Collection" name="view_collection" class="view-button" onclick="location.href = 'https://www.heritagefurnitureuk.com/category.php?c=Njk=';">
+                        <br/>				<input type="button" value="View Collection" name="view_collection" class="view-button" onclick="location.href = 'https://www.heritagefurnitureuk.com/category.php?c=Njk=';">
                     </div>
                 </div>
             </div>
@@ -36,7 +39,7 @@
                         <h2>Timeless Parquet</h2>
                         <h1>Carno</h1>
                         There's a lot to admire in this expertly crafted range of naturally blond oak furniture. There's the suits-any decor natural warmth of the timber - with the unique grain patterns showcased through a protective layer of matt lacquer.<br />
-                        <br type="_moz" />				<input type="button" value="View Collection" name="view_collection" class="view-button" onclick="location.href = 'https://www.heritagefurnitureuk.com/category.php?c=NzA=';">
+                        <br/>				<input type="button" value="View Collection" name="view_collection" class="view-button" onclick="location.href = 'https://www.heritagefurnitureuk.com/category.php?c=NzA=';">
                     </div>
                 </div>
             </div>
@@ -63,7 +66,7 @@
                         <h2>Modern Farmhouse Style</h2>
                         <h1>Alba</h1>
                         Our skilfully crafted rough sawn living and dining range offers traditional farmhouse style with a modern twist. With the warmth, durability and timeless good looks of solid oak, this is furniture that will last a lifetime.<br />
-                        <br type="_moz" />				<input type="button" value="View Collection" name="view_collection" class="view-button" onclick="location.href = 'https://www.heritagefurnitureuk.com/category.php?c=Njg=';">
+                        <br/>				<input type="button" value="View Collection" name="view_collection" class="view-button" onclick="location.href = 'https://www.heritagefurnitureuk.com/category.php?c=Njg=';">
                     </div>
                 </div>
             </div>
@@ -122,8 +125,8 @@
             #fade {
                 display: none;
                 position: fixed;
-                top: 0%;
-                left: 0%;
+                top: 0;
+                left: 0;
                 width: 100%;
                 height: 100%;
                 background-color: black;
@@ -158,7 +161,7 @@
                 font-size: 31px;
                 font-weight: bold;
                 display: inline-block;
-                line-height: 0px;
+                line-height: 0;
                 padding: 11px 3px;
                 position: absolute;
                 right: 2px;
@@ -180,7 +183,7 @@
         <div id="video">
             <a class="boxclose" id="boxclose" onclick="videobox_close();"></a>
             <video id="VisaChipCardVideo" width="1200" controls>
-                <source src="https://www.heritagefurnitureuk.com/video/FINAL_Promo_heritage.mp4" type="video/mp4">
+                <source src="{% static 'mainapp/video/FINAL_Promo_heritage.mp4' %}" type="video/mp4">
                 <!--Browser does not support <video> tag -->
             </video>
         </div>
@@ -189,11 +192,11 @@
             <li>
                 <a href="#video" onclick="videobox_open();">
                     <div class="imgWrp">
-                        <img src="https://www.heritagefurnitureuk.com/images/Video-image-original.jpg" alt="video">
+                        <img src="{% static 'mainapp/images/Video-image-original.jpg' %}" alt="video">
                         <div class="topText" style="width: 100%;">
                             <h4>NEW WEBSITE FEATURES</h4>
                             <h1>WATCH</h1>
-                            <img src="https://www.heritagefurnitureuk.com/images/play-button.png" alt="" class="firstImg">
+                            <img src="{% static 'mainapp/images/play-button.png' %}" alt="" class="firstImg">
                         </div>
                     </div>
                 </a>
@@ -202,25 +205,25 @@
             
             
             <li>
-                <a href="https://www.heritagefurnitureuk.com/register.php">
+                <a href="#imgWrp">
                     <div class="imgWrp">
-                        <img src="https://www.heritagefurnitureuk.com/images/stocklist-bg.jpg" alt="brochure">
+                        <img src="{% static 'mainapp/images/stocklist-bg.jpg' %}" alt="brochure">
                         <div class="topText">
                             <h4>Download</h4>
                             <h1>Brochures</h1>
-                            <img src="https://www.heritagefurnitureuk.com/images/book-white.png" alt="" class="secImg">
+                            <img src="{% static 'mainapp/images/book-white.png' %}" alt="" class="secImg">
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="https://www.heritagefurnitureuk.com/become-a-stocklist.php">
+                <a href="{% url 'become_a_stocklist' %}">
                     <div class="imgWrp">
-                        <img src="https://www.heritagefurnitureuk.com/images/stockilist-1.jpg" alt="brochure">
+                        <img src="{% static 'mainapp/images/stockilist-1.jpg' %}" alt="brochure">
                         <div class="topText">
                             <h4>Become a</h4>
                             <h1>Stockist</h1>
-                            <img src="https://www.heritagefurnitureuk.com/images/gift-white.png" alt="" class="thirdImg">
+                            <img src="{% static 'mainapp/images/gift-white.png' %}" alt="" class="thirdImg">
                         </div>
                     </div>
                 </a>
@@ -232,7 +235,7 @@
                 if (!e) {
                     e = event;
                 }
-                if (e.keyCode == 27) {
+                if (e.keyCode === 27) {
                     videobox_close();
                 }
             }
@@ -262,6 +265,7 @@
                 document.getElementById('fade').style.display = 'none';
                 videoBoxVideo.pause();
             }
-        </script>	</div>
+        </script>
+    </div>
 </div>
 {% endblock %}

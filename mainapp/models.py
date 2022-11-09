@@ -3,9 +3,6 @@ from django.contrib.auth.models import AbstractUser
 from django.utils import timezone
 
 
-# Create your models here.
-
-
 class UserProfileModel(AbstractUser):
     phone_number = models.CharField(
         null=True,

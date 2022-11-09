@@ -1,5 +1,6 @@
 .idea/
 ./venv
 ./db.sqlite3
-./mainapp/migrations
-media/.DS_Store
+./mainapp/migrations/
+*.DS_Store
+./identifier.sqlite
