@@ -169,9 +169,8 @@ def login_(request):
         email = request.POST['emailId']
         password = request.POST['usrpassword']
 
-        user = UserProfileModel.objects.get(email=email, password=password)
-
         try:
+            user = UserProfileModel.objects.get(email=email, password=password)
             login(request, user)
         except UserProfileModel.DoesNotExist:
             logging.warning('User does not exist.')

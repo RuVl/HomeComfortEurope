@@ -34,7 +34,7 @@
                 {% for product in products %}
                 <li class="show">
                     <div class="imgSection">
-                        <a href="/media/{{ product.image }}">
+                        <a href="{% url "product" product.pk %}">
                             <img src="/media/{{ product.image }}" alt="{{ product.name }}">
                         </a>
                     </div>
