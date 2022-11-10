@@ -6,7 +6,7 @@ from django.contrib.auth.views import LogoutView
 
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-
+from django.contrib.auth import logout
 from .models import UserProfileModel, CompanyModel, CollectionModel, ProductType, ProductItem
 
 
@@ -184,14 +184,7 @@ def login_(request):
             return render(request, 'register.html', context=context)
 
         main_context['user'] = request.user
-
-        return index(request)
-
-
-        user = UserProfileModel.objects.get(username=email, password=password)
-        if user is not None:
-            login(request, user)
-            main_context['is_authenticated'] = request.user.is_authenticated
+        request.user.is_anonymous
         return index(request)
 
 
@@ -297,8 +290,13 @@ def user_profile(request):
         return render(request, 'profile.html', context=context)
 
 
-class UserLogoutView(LogoutView):
-    next_page = reverse_lazy('index')
+def logout_(request):
+    logout(request)
+    # request.user.session_set.all().delete()
+    return index(request)
+
+# class UserLogoutView(LogoutView):
+#     next_page = reverse_lazy('index')
 
 # def get_links_menu():
 #         links_menu = CollectionModel.objects.filter(is_deleted=False)

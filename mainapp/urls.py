@@ -27,7 +27,7 @@ urlpatterns = [
     path('type/<int:pk>', get_products_sorted_by_type, name='type'),
     path('collection/<int:pk>', get_types_sorted_by_collections, name='collection'),
     path('profile/', user_profile, name='profile'),
-    path('logout/', UserLogoutView.as_view(), name='logout')
+    path('logout/', logout_, name='logout')
 ]
 
 
