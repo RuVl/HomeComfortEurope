@@ -23,7 +23,7 @@ def get_header():
 def get_types_sorted_by_collections(request, pk):
     # product_types_menu = ProductType.objects.filter(collection=pk)
     context = {
-        'title': 'Heritage Furniture - Design For Living',
+        'title': 'Home Comfort Europe - Design For Living',
         'links_menu': get_header(),
         'types': ProductType.objects.filter(collection=pk),
         'collection': CollectionModel.objects.get(pk=pk)
@@ -35,7 +35,7 @@ def get_types_sorted_by_collections(request, pk):
 def get_products_sorted_by_type(request, pk):
     products_sorted_by_types = ProductItem.objects.filter(type=pk)
     context = {
-        'title': 'Heritage Furniture - Design For Living',
+        'title': 'Home Comfort Europe - Design For Living',
         'links_menu': get_header(),
         'products': products_sorted_by_types,
         'type': ProductType.objects.get(pk=pk),
@@ -47,7 +47,7 @@ def get_products_sorted_by_type(request, pk):
 def get_product(request, pk):
     product = ProductItem.objects.get(pk=pk)
     context = {
-        'title': 'Heritage Furniture - Design For Living',
+        'title': 'Home Comfort Europe - Design For Living',
         'links_menu': get_header(),
         'product': product,
         'type': ProductType.objects.get(pk=product.type.pk)
@@ -58,7 +58,7 @@ def get_product(request, pk):
 def index(request):
     context = {
         # 'user_status': request.user.is_authenticated,
-        'title': 'Heritage Furniture - Design For Living',
+        'title': 'Home Comfort Europe - Design For Living',
         'links_menu': get_header(),
         # 'subcategory_meny': get_types_sorted_by_collections()
     } | main_context
