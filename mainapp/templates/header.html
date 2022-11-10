@@ -128,11 +128,11 @@
                                     <div class="leftList">
                                         <ul>
                                             {% for subcategory in links_menu.types %}
-                                                {% if subcategory.category.pk == category.pk %}
+{#                                                {% if subcategory.category.pk == category.pk %}#}
                                                     <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory.pk }}">
                                                         <a href="{% url "type" category.pk %}"><small>{{ subcategory.name }}</small></a>
                                                     </li>
-                                                {% endif %}
+{#                                                {% endif %}#}
                                             {% endfor %}
                                         </ul>
                                     </div>
