@@ -2,8 +2,11 @@ import logging
 
 import validators
 from django.contrib.auth import login
+from django.contrib.auth.views import LogoutView
 
 from django.shortcuts import render, get_object_or_404
+from django.urls import reverse_lazy
+
 from .models import UserProfileModel, CompanyModel, CollectionModel, ProductType, ProductItem
 
 
@@ -54,6 +57,7 @@ def get_product(request, pk):
 
 def index(request):
     context = {
+        # 'user_status': request.user.is_authenticated,
         'title': 'Heritage Furniture - Design For Living',
         'links_menu': get_header(),
         # 'subcategory_meny': get_types_sorted_by_collections()
@@ -77,6 +81,7 @@ def register(request):
     if request.method == 'GET':
         context = {
                       'title': 'Register',
+                      # 'user_status': request.user.is_authenticated,
                       'links_menu': get_header(),
                   } | main_context
 
@@ -183,15 +188,11 @@ def login_(request):
         return index(request)
 
 
-def logout(request):
-    # TODO logout
-
-    main_context.pop('user')
-    return index(request)
-
-
-def account_details(request):
-    pass
+        user = UserProfileModel.objects.get(username=email, password=password)
+        if user is not None:
+            login(request, user)
+            main_context['is_authenticated'] = request.user.is_authenticated
+        return index(request)
 
 
 # Complete
@@ -206,6 +207,7 @@ def search_result(request):
 # Complete
 def news(request):
     context = {
+        # 'user_status': request.user.is_authenticated,
         'title': 'News',
         'links_menu': get_header()
     } | main_context
@@ -216,6 +218,7 @@ def news(request):
 # Complete
 def concrete_news(request, concrete: str):
     context = {
+                  # 'user_status': request.user.is_authenticated,
                   'title': concrete.replace('_', ' '),
                   'links_menu': get_header()
               } | main_context
@@ -226,6 +229,7 @@ def concrete_news(request, concrete: str):
 # Complete
 def about_us(request):
     context = {
+        # 'user_status': request.user.is_authenticated,
         'title': 'Our Story',
         'links_menu': get_header()
     } | main_context
@@ -282,6 +286,19 @@ def cookies(request):
 
     return render(request, 'cookies.html', context=context)
 
+
+def user_profile(request):
+    context = {}
+    if request.user.is_authenticated:
+        user = UserProfileModel.objects.get(pk=request.user.pk)
+        context['user_data'] = user
+        if user.interested_in_stocking or user.is_dealer:
+            context['company_data'] = CompanyModel.objects.get(owner=user)
+        return render(request, 'profile.html', context=context)
+
+
+class UserLogoutView(LogoutView):
+    next_page = reverse_lazy('index')
 
 # def get_links_menu():
 #         links_menu = CollectionModel.objects.filter(is_deleted=False)

@@ -10,9 +10,6 @@ urlpatterns = [
 
     path('register/', register, name='register'),
     path('login/', login_, name='login'),
-    path('logout/', logout, name='logout'),
-    path('account_details/', account_details, name='account_details'),
-
     path('search-result/', search_result, name='search_result'),
 
     path('news/', news, name='news'),
@@ -28,9 +25,9 @@ urlpatterns = [
 
     path('product/<int:pk>', get_product, name='product'),
     path('type/<int:pk>', get_products_sorted_by_type, name='type'),
-    path('collection/<int:pk>', get_types_sorted_by_collections, name='collection')
-
-    # path('types/' )
+    path('collection/<int:pk>', get_types_sorted_by_collections, name='collection'),
+    path('profile/', user_profile, name='profile'),
+    path('logout/', UserLogoutView.as_view(), name='logout')
 ]
 
 
