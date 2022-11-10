@@ -1,3 +1,5 @@
+import logging
+
 import validators
 from django.contrib.auth import login
 
@@ -60,7 +62,7 @@ def index(request):
     return render(request, 'index.html', context=context)
 
 
-def valid(data: dict):
+def valid_user_register(data: dict):
     if not validators.email(data.get('email')) or \
             not validators.truthy(data.get('firstName')) or \
             not validators.truthy(data.get('lastName')) or \
@@ -80,13 +82,13 @@ def register(request):
 
         return render(request, 'register.html', context=context)
     elif request.method == 'POST':
-        if not valid(request.POST):
-            print("Not Valid")
+        if not valid_user_register(request.POST):
+            logging.warning('Not valid data!')
             context = {
-                          'title': 'Register',
-                          'links_menu': get_header(),
-                          'not_valid': 'true'
-                      } | main_context
+                'title': 'Register',
+                'links_menu': get_header(),
+                'valid_msg': 'Not valid data!'
+            } | main_context
 
             return render(request, 'register.html', context=context)
 
@@ -98,30 +100,46 @@ def register(request):
 
         password = request.POST['password']
 
-        company_name_ = request.POST['CompanyName']
-        sel_company_type = request.POST['SelCompanyType']
-        sel_acc_title = request.POST['selAccTitle']
-        user = UserProfileModel(
-            username=username,
-            email=username,
-            phone_number=phone,
-            password=password,
-            first_name=first_name,
-            last_name=last_name,
-        )
-        user.save()
+        company_name_ = request.POST.get('CompanyName')
+        sel_company_type = request.POST.get('SelCompanyType') or '---'
+        sel_acc_title = request.POST.get('selAccTitle') or '---'
 
-        if company_name_ is not None:
-            company = CompanyModel(
-                company_name=company_name_,
-                company_type=sel_company_type,
-                owner=user,
-                title=sel_acc_title
-
+        try:
+            user = UserProfileModel(
+                username=username,
+                email=username,
+                phone_number=phone,
+                password=password,
+                first_name=first_name,
+                last_name=last_name,
             )
-            company.save()
-        login(request, user)
-        return index(request)
+            user.save()
+
+            if validators.truthy(company_name_):
+                company = CompanyModel(
+                    company_name=company_name_,
+                    company_type=sel_company_type,
+                    owner=user,
+                    title=sel_acc_title
+                )
+                company.save()
+            login(request, user)
+            return index(request)
+        except:
+            logging.warning('Already registered!')
+            context = {
+                'title': 'Register',
+                'links_menu': get_header(),
+                'valid_msg': 'Already registered!'
+            } | main_context
+
+            return render(request, 'register.html', context=context)
+
+
+def valid_user(data: dict):
+    if not validators.email(data.get('emailId')) or not validators.truthy(data.get('usrpassword')):
+        return False
+    return True
 
 
 def login_(request):
@@ -133,12 +151,47 @@ def login_(request):
 
         return render(request, 'register.html', context=context)
     elif request.method == 'POST':
+        if not valid_user(request.POST):
+            logging.warning('Not valid data!')
+            context = {
+                          'title': 'Register',
+                          'links_menu': get_header(),
+                          'valid_msg': 'Not valid data!'
+                      } | main_context
+
+            return render(request, 'register.html', context=context)
+
         email = request.POST['emailId']
         password = request.POST['usrpassword']
+
         user = UserProfileModel.objects.get(email=email, password=password)
-        login(request, user)
-        main_context['is_authenticated'] = request.user.is_authenticated
+
+        try:
+            login(request, user)
+        except UserProfileModel.DoesNotExist:
+            logging.warning('User does not exist.')
+            context = {
+                          'title': 'Register',
+                          'links_menu': get_header(),
+                          'valid_msg': 'Firstly register'
+                      } | main_context
+
+            return render(request, 'register.html', context=context)
+
+        main_context['user'] = request.user
+
         return index(request)
+
+
+def logout(request):
+    # TODO logout
+
+    main_context.pop('user')
+    return index(request)
+
+
+def account_details(request):
+    pass
 
 
 # Complete

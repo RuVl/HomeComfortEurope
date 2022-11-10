@@ -13,8 +13,28 @@
                 <li><a href="{% url 'news' %}" title="News">News</a></li>
 
                 <!-- Login form -->
-                <li class="account"><a href="javascript:void(0);">Login</a><a href="javascript:void(0);" class="mob-account"><img
-                        src="{% static 'mainapp/images/profile.png' %}" alt="profile"></a>
+                {% if user %}
+                    <li class="account">
+                        <a href="#">My Account</a>
+                        <a href="#" class="mob-account">
+                            <img src="{% static 'mainapp/images/profile.png' %}" alt="profile">
+                        </a>
+                        <div class="submenu-Div dropdownL">
+                            <i class="fa fa-caret-up" aria-hidden="true"></i>
+                            <ul class="submenu">
+                                <li><a href="{% url 'account_details' %}">Account Details</a></li>
+{#                                <li><a href="https://www.heritagefurnitureuk.com/order-history.php">Order History</a></li>#}
+{#                                <li><a href="https://www.heritagefurnitureuk.com/change-password.php">Change Password</a></li>#}
+                                <li><a href="{% url 'logout' %}">Logout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                {% else %}
+                  <li class="account">
+                    <a href="javascript:void(0);">Login</a>
+                    <a href="javascript:void(0);" class="mob-account">
+                        <img src="{% static 'mainapp/images/profile.png' %}" alt="profile">
+                    </a>
                     <div class="submenu-Div dropdownL login">
                         <i class="fa fa-caret-up" aria-hidden="true"></i>
                         <form class="loginForm" name="frmLogin" id="loginForm" action="{% url 'login' %}" method="post">
@@ -34,6 +54,7 @@
                         </form>
                     </div>
                 </li>
+                {% endif %}
 
                 <!-- Search -->
                 <li class="srchWrp">

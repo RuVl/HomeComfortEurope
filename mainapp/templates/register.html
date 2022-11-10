@@ -34,7 +34,6 @@
                     <div class="row submitBtn">
                         <input type="submit" name="btnSubmit" value="Login" class="searchBtn">
                     </div>
-                    <p><a href="{% url 'forgot_password' %}" class="forgot">Forgot Password?</a></p>
                 </form>
             </div>
         </div>
@@ -62,8 +61,8 @@
         </script>
         <script type="text/javascript" src="{% static 'mainapp/js/cart.js' %}"></script>
 
-        {% if not_valid %}
-            <p style="color: red; text-align:center;">Not valid data!</p>
+        {% if valid_msg %}
+            <p style="color: red; text-align:center;">{{ valid_msg }}</p>
         {% endif %}
         <form class="createAccount" name="frmRegister" id="frmRegister" action="{% url 'register' %}" method="post">
             {% csrf_token %}
