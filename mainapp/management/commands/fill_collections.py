@@ -1,6 +1,7 @@
-from mainapp.models import CollectionModel
 import os
 import json
+
+from mainapp.models import CollectionModel
 from django.core.management.base import BaseCommand
 
 JSON_PATH = 'mainapp/jsons'
