@@ -69,6 +69,7 @@
                 </li>
             </ul>
         </div>
+
         <nav>
             {# MAIN categories #}
             <ul class="navigation dropdown">
@@ -119,37 +120,8 @@
                                 color: #fff;
                             }
                         </style>
-                        {% for category in links_menu.collections %}
-                            <li>
-                                <a href="{% url "collection" category.pk %}" title="{{ category.name }}">{{ category.name }}</a>
-                                <ul class="submenu rangesSubMenu">
-                                    <div class="leftList">
-                                        <ul>
-                                            {% for subcategory in links_menu.types %}
-{#                                                {% if subcategory.category.pk == category.pk %}#}
-                                                    <li style="border-bottom: 0;" class="rangeHover" id="cat_{{ subcategory.pk }}">
-                                                        <a href="{% url "type" category.pk %}"><small>{{ subcategory.name }}</small></a>
-                                                    </li>
-{#                                                {% endif %}#}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-
-                                    {% for type in types %}
-                                        {% if type.category.pk == category.pk %}
-                                            <div class="rangeImageContainer" id="cat_{{ type.pk }}" data-order="2_0">
-                                                <a href="{% url "type" category.pk %}">
-                                                    <img src="/media/{{ type.image }}" class="rangeImg">
-                                                    <div class="rangeTitle">
-                                                        <p class="rangeTitleText">{{ type.name }}</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        {% endif %}
-
-                                    {% endfor %}
-                                </ul>
-                            </li>
+                        {% for type in links_menu.types %}
+                            <li><a href="{% url 'type' type.pk %}" title="{{ type.name }}">{{ type.name }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
@@ -176,6 +148,7 @@
                 <span class="three"></span>
             </a>
         </nav>
+
         <div class="clear"></div>
     </div>
 </div>

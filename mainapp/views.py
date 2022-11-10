@@ -14,9 +14,12 @@ main_context = {}
 
 
 def get_header():
-    collections = CollectionModel.objects.all()
+    # collections = CollectionModel.objects.all()
     types = ProductType.objects.all()
-    header = {'collections': collections, 'types': types}
+    header = {
+        # 'collections': collections,
+        'types': types
+    }
     return header
 
 
