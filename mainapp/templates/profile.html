@@ -1,0 +1,83 @@
+{% extends 'for_content.html' %}
+{% load static %}
+{% block content %}
+<div class="content">
+    <div class="headerName">
+     <div class="container">
+	<div class="breadcrum">
+		<ul>
+		  <li><a href="{% url 'profile' %}">My Account Details</a></li>
+		</ul>
+	 </div>
+	  <h3>My Account Details</h3>
+      </div>
+   </div>
+   <div class="container">
+     <div class="success-content">
+           <br>
+        <div class="account-table">
+
+
+<table width="100%" border="0" cellspacing="1" cellpadding="10" class="lightbrown font-14 border1">
+  <tbody><tr bgcolor="#F5F5F5">
+	  <td colspan="4" align="left" valign="top" class="heading">Account Information</td>
+  </tr>
+  <tr>
+  </tr>
+   <tr>
+	<td align="left" valign="top">First Name</td>
+	<td colspan="3" align="left" valign="top">{{ user_data.first_name }}</td>
+  </tr>
+   <tr>
+	 <td align="left" valign="top"><span class="text">Surname</span></td>
+	 <td colspan="3" align="left" valign="top">{{ user_data.last_name }}</td>
+   </tr>
+   <tr>
+	<td align="left" valign="top">Email</td>
+	<td colspan="3" align="left" valign="top">{{ user_data.email }}</td>
+  </tr>
+    {% if user_data.is_dealer or user_data.interested_in_stocking %}
+  <tr bgcolor="#F5F5F5">
+	  <td colspan="4" align="left" valign="top" class="heading">Your Company Information</td>
+  </tr>
+   <tr>
+	<td align="left" valign="top"><span class="text">Company Name</span></td>
+	<td colspan="3" align="left" valign="top">{{ company_data.company_name }}</td>
+  </tr>
+   <tr>
+	<td align="left" valign="top"><span class="text">Company Number</span></td>
+	<td colspan="3" align="left" valign="top">{{ user_data.phone_number }}</td>
+  </tr>
+   <tr>
+	 <td align="left" valign="top"><span class="text">Company Type</span></td>
+	 <td colspan="3" align="left" valign="top">{{ company_data.company_type }}</td>
+   </tr>
+   <tr>
+	<td align="left" valign="top"><span class="text">Address</span></td>
+	<td colspan="3" align="left" valign="top">{{ company_data.address }}</td>
+  </tr>
+   <tr>
+	<td align="left" valign="top"><span class="text">City</span></td>
+	<td colspan="3" align="left" valign="top">{{ company_data.city }}</td>
+  </tr>
+   <tr>
+	<td align="left" valign="top"><span class="text">County</span></td>
+	<td colspan="3" align="left" valign="top">{{ company_data.country }}</td>
+  </tr>
+   <tr>
+	 <td align="left" valign="top"><span class="text">PostCode</span></td>
+	 <td colspan="3" align="left" valign="top">{{ company_data.post_code }}</td>
+   </tr>
+   <tr>
+	<td align="left" valign="top"><span class="text">Email</span></td>
+	<td colspan="3" align="left" valign="top">{{ user_data.email }}</td>
+  </tr>
+ {% endif %}
+
+</tbody></table>
+</div>
+<div class="clear"></div>
+        </div>
+   </div>
+   </div>
+{% endblock %}
