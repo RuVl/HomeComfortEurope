@@ -22,14 +22,16 @@ class Command(BaseCommand):
             get_collection = CollectionModel.objects.get(name='All Collection')
             new_product_type = ProductType(name=product_type, collection=get_collection)
             new_product_type.save()
+            product_image_path = None
             for product_item in product_object[product_type].items():
+                product_name = product_item[0]
                 product_item = product_item[1]
-                product_name_delete_whitespace = product_item['Range Name'].split()
-                product_name = "_".join(product_name_delete_whitespace)
-                image_path = 'ProductImages/'+product_name
-                product_item['image'] = image_path
+                product_name_delete_whitespace = product_name.split()
+                product_name_delete_whitespace = "_".join(product_name_delete_whitespace)
+                product_image_path = 'ProductsImages/'+product_name_delete_whitespace+'.png'
+                product_item['image'] = product_image_path
                 product_new_item = ProductItem(
-                    name=product_item['Range Name'],
+                    name=product_name,
                     image=product_item['image'],
                     product_code=product_item['Product Code'],
                     material=product_item['Material'],
@@ -40,6 +42,9 @@ class Command(BaseCommand):
                     type=new_product_type
                 )
                 product_new_item.save()
+            if product_image_path is not None:
+                new_product_type.image = product_image_path
+                new_product_type.save()
 
         # products = load_from_json('products')
         #

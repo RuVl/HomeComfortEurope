@@ -16,12 +16,12 @@ def get_header():
 
 
 def get_types_sorted_by_collections(request, pk):
-    product_types_menu = ProductType.objects.filter(collection=pk)
+    # product_types_menu = ProductType.objects.filter(collection=pk)
     context = {
         'title': 'Heritage Furniture - Design For Living',
         'links_menu': get_header(),
         'types': ProductType.objects.filter(collection=pk),
-        'collection': CollectionModel.objects.get(collection=pk)
+        'collection': CollectionModel.objects.get(pk=pk)
     }
 
     return render(request, 'category.html', context=context)
@@ -34,7 +34,7 @@ def get_products_sorted_by_type(request, pk):
         'links_menu': get_header(),
         'products': products_sorted_by_types,
         'type': ProductType.objects.get(pk=pk),
-        'collection': ProductType.objects.get(type=pk).collection
+        'collection': ProductType.objects.get(pk=pk).collection
     }
     return render(request, 'subcategory.html', context=context)
 
@@ -45,7 +45,7 @@ def get_product(request, pk):
         'title': 'Heritage Furniture - Design For Living',
         'links_menu': get_header(),
         'product': product,
-        'type': product.objects.get(type=product.type)
+        'type': ProductType.objects.get(pk=product.type.pk)
     }
     return render(request, 'product.html', context=context)
 

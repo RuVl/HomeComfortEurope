@@ -1,5 +1,7 @@
+from django.conf.urls.static import static
 from django.urls import path
 
+from HomeComfortEurope import settings
 from mainapp.views import *
 
 
@@ -21,3 +23,7 @@ urlpatterns = [
     path('collection/<int:pk>', get_types_sorted_by_collections, name='collection')
     # path('types/' )
 ]
+
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
