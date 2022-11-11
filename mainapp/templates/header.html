@@ -57,8 +57,7 @@
                 <!-- Search -->
                 <li class="srchWrp">
                     <a href="javascript:void(0)" class="srch"><span>Search</span><i class="fa fa-search" aria-hidden="true"></i></a>
-                    <a href="javascript:void(0)" class="srch mob-account"><span>Search</span><img src="{% static 'mainapp/images/search.png' %}"
-                                                                                                  alt="Search"></a>
+                    <a href="javascript:void(0)" class="srch mob-account"><span>Search</span><img src="{% static 'mainapp/images/search.png' %}" alt="Search"></a>
                     <form name="frmSearchResult" action="{% url 'search_result' %}" method="post">
                         {% csrf_token %}
                         <span class="search-field">
@@ -125,6 +124,7 @@
                         {% endfor %}
                     </ul>
                 </li>
+
                 {# Subcategories #}
                 {% for category in categories %}
                     <li class="mob-collection bg">
@@ -141,6 +141,62 @@
                 <li><a href="{% url 'ethos' %}">Ethos</a></li>
                 <li><a href="{% url 'design_studio' %}">Design Studio</a></li>
                 <li><a href="{% url 'fulfilment' %}">Fulfilment</a></li>
+
+                {# Login #}
+                {% if request.user.is_authenticated %}
+                    <li class="mob-collection bg">
+                        <a href="#">My account</a>
+                        <ul class="submenu">
+                            <style>
+                            .rangesSubMenu {
+                                margin-left: 112px;
+                                top: 0 !important;
+                                display: block;
+                                width: 500px;
+                                padding: 10px;
+                                min-height: 200px;
+                            }
+
+                            .rangesSubMenu > .leftList {
+                                width: 60%;
+                                float: left;
+                            }
+
+                            .rangeImageContainer {
+                                width: 40%;
+                                float: right;
+                                display: none;
+                                min-height: 200px;
+                            }
+
+                            .rangeImg {
+                                width: 200px;
+                                margin-bottom: 0;
+                                height: 200px;
+
+                            }
+
+                            .rangeTitle {
+                                background-color: #989b9e;
+                                margin-top: -6px;
+                                padding: 5px;
+                                width: 190px;
+                            }
+
+                            .rangeTitleText {
+                                width: 100%;
+                                text-align: center;
+                                color: #fff;
+                            }
+                        </style>
+                            <li><a href="{% url 'profile' %}" title="Account details">Account details</a></li>
+                            <li><a href="{% url 'logout' %}" title="Logout">Logout</a></li>
+                        </ul>
+                    </li>
+                {% endif %}
+                {% if request.user.is_anonymus %}
+                    <li><a href="{% url 'login' %}">Login</a></li>
+                {% endif %}
             </ul>
             <a class="mob-menu" href="javascript:void(0)">
                 <span class="one"></span>
