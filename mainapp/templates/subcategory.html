@@ -7,11 +7,8 @@
         <div class="breadcrum">
             <ul>
                 <li><a href="{% url 'index' %}">Home |</a></li>
-                <li>
-                    <a href="{% url 'collection' collection.pk %}">{{ collection.name}} | </a>
-                </li>
                 <li class="active">
-                    <a href="{% url "type" type.pk %}">{{ type.name }} </a>
+                    <a href="{% url "type" type.pk %}"> {{ type.name }}</a>
                 </li>
             </ul>
         </div>
