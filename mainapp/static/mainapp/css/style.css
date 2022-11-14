@@ -6006,7 +6006,7 @@ strong {
     .categoryList .category-List li .txtWrp {
         position: absolute;
         width: 100%;
-        background: #414245;
+        background: #414245 !important;
         bottom: 0;
         max-width: 363px;
         margin: 0 auto;
