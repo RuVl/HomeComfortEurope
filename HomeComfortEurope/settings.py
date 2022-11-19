@@ -27,7 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '223.25.237.163',
-    'homecomforteurope.com',
+    'homecomforteurope.com'
 ]
 
 
@@ -133,5 +133,6 @@ AUTH_USER_MODEL = 'mainapp.UserProfileModel'
 MEDIA_ROOT = f'{BASE_DIR}/media'
 MEDIA_URL = '/media/'
 
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
 
