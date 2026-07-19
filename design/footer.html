@@ -1,0 +1,236 @@
+{% block footer %}
+<div class="topfooter">
+    <div class="container">
+<!-- About -->
+        <div class="footerList">
+            <h3>About</h3>
+            <ul class="about">
+                <li><a href="{{ our_story }}">Our Story</a></li>
+                <li><a href="{{ ethos }}">Ethos</a></li>
+                <li><a href="{{ design_studio }}">Design Studio</a></li>
+                <li><a href="{{ fulfilment }}">Fulfilment</a></li>
+            </ul>
+        </div>
+        
+<!-- Terms -->
+        <div class="footerList">
+            <h3>Terms</h3>
+            <ul class="about">
+                <li><a href="{{ privacy_policy }}">Privacy Policy</a></li>
+                <li><a href="{{ cookies }}">Cookies</a></li>
+            </ul>
+        </div>
+        
+<!-- Contact -->
+        <div class="footerList">
+            <h3>Contact</h3>
+            <ul class="about">
+                <li><a href="{{ contact_us }}">Get in touch</a></li>
+            </ul>
+        </div>
+        
+<!-- Social -->
+        <div class="footerList social-media">
+            <h3>Follow us on Social Media</h3>
+            <ul class="social-icon">
+                <li><a href="{{ facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="{{ instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="{{ twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="{{ pinterest }}"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="{{ google_plus }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        
+        <style>
+            .modal-box {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                width: 50%;
+                background: white;
+                border-radius: 4px;
+                box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                background-clip: padding-box;
+            }
+
+            #popup{ width:90%; max-width:600px;}
+
+            .modal-box header,
+            .modal-box .modal-header {
+                padding: 1.25em 1.5em;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .modal-box header h3,
+            .modal-box header h4,
+            .modal-box .modal-header h3,
+            .modal-box .modal-header h4 { margin: 0; }
+
+            .modal-box .modal-body { padding: 2em 1.5em; }
+
+            .modal-box footer,
+            .modal-box .modal-footer {
+                padding: 1em;
+                border-top: 1px solid #ddd;
+                background: rgba(0, 0, 0, 0.02);
+                text-align: right;
+            }
+
+            .modal-overlay {
+                opacity: 0;
+                filter: alpha(opacity=0);
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 900;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 1) !important;
+            }
+
+            a.close {
+                line-height: 1;
+                font-size: 1.5em;
+                position: absolute;
+                top: 5%;
+                right: 2%;
+                text-decoration: none;
+                color: #bbb;
+            }
+
+            a.close:hover {
+                color: #222;
+                -webkit-transition: color 1s ease;
+                -moz-transition: color 1s ease;
+                transition: color 1s ease;
+            }
+            .searchBtn{
+                width: auto;
+                padding: 8px 25px;
+                border: none;
+                background: #4b5251;
+                color: #fff;
+                font-size: 13px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            .row{
+                position: relative;
+                width: 100%;
+                display: inline-block;
+                margin-bottom: 25px;
+                vertical-align: top;
+            }
+
+            #name,#email{ width:93%; padding:10px 3%;}
+            .js-modal-close{ color:#000000;}
+
+            @media (min-width: 32em) {
+                .modal-box { width: 50%;}
+            }
+            @media only screen and (max-width:560px) {
+                .modal-box { width: 100%; }
+            }
+        </style>
+        
+        <div id="popup" class="modal-box">
+            <header>
+                <h3><a href="javascript:void(0);"></a>Download Brochures</h3>
+            </header>
+            <div class="modal-body">
+                <div class="sucess"></div>
+                <form role="form" method="post" id="subscribe">
+                    <div class="row">
+                        <input type="text" autocomplete="off"  id="name" name="name" placeholder="Name" value="">
+                        <div class="message1"></div>
+                    </div>
+                    <div class="row">
+                        <input type="email" autocomplete="off"  id="email" name="email" placeholder="Email address" value="">
+                        <div class="message"></div>
+                    </div>
+                    <div class="row">
+                        <button type="button" onclick="downldbuyer();" class="searchBtn">DOWNLOAD</button>
+                    </div>
+                </form>
+            </div>
+            <footer>
+                <a href="javascript:void(0);" class="js-modal-close">Close</a>
+            </footer>
+        </div>
+        <iframe id="frame" style="display:none"></iframe>
+        <script type="text/javascript">
+            $(function () {
+                var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
+                $('a[data-modal-id]').click(function (e) {
+                    e.preventDefault();
+                    $("body").append(appendthis);
+                    $(".modal-overlay").fadeTo(500, 0.7);
+                    //$(".js-modalbox").fadeIn(500);
+                    var modalBox = $(this).attr('data-modal-id');
+                    $('#' + modalBox).fadeIn($(this).data());
+                });
+
+
+                $(".js-modal-close, .modal-overlay").click(function () {
+                    $(".modal-box, .modal-overlay").fadeOut(500, function () {
+                        $(".modal-overlay").remove();
+                    });
+                });
+
+                $(window).resize(function () {
+                    $(".modal-box").css({
+                        top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+                        left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+                    });
+                });
+
+                $(window).resize();
+            });
+            function downldbuyer() {
+                if (!valid_email_address($("#email").val()) && $("#name").val(''))
+                {
+                    $(".message").html('Please enter a valid email address.');
+                    $(".message1").html('Please enter name.');
+                }
+                else
+                {
+
+                    $(".sucess").html("<span style='color:green;'>Download Brochures Successfully...</span>");
+                    $.ajax({
+                        url: 'https://www.heritagefurnitureuk.com/send-mail.php',
+                        data: $('#subscribe').serialize(),
+                        type: 'POST',
+                        success: function (msg) {
+                            //alert(msg);
+                            //return flase;
+                            msg = msg.trim();
+                            var ifrm = document.getElementById("frame");
+                            ifrm.src = "https://www.heritagefurnitureuk.com/download.php?Id="+msg;
+                            window.setTimeout(function () {
+                                $("#name").val('');
+                                $("#email").val('');
+                                $(".message").html('');
+                                $(".message1").html('');
+                                $(".sucess").html('');
+                                $(".js-modal-close").click();
+                            }, 1000);
+                        }
+                    });
+                }
+
+                return false;
+            }
+
+            function valid_email_address(email)
+            {
+                var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+                return pattern.test(email);
+            }
+        </script>
+    </div>
+</div>
+<div class="lastFooter">
+    <p>HomeComfortEurope 2022, All Rights Reserved.</p>
+</div>
+{% endblock %}

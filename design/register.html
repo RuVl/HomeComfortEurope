@@ -1,0 +1,253 @@
+{% block content %}
+<div class="headerName">
+    <div class="container">
+        <div class="breadcrum">
+            <ul>
+                <li><a href="{{ index }}">Home |</a></li>
+                <li><a href="{{ register }}">Register</a></li>
+            </ul>
+        </div>
+        <h3>Register</h3>
+    </div>
+</div>
+<div class="container">
+    <div class="success-content">
+        <p style="text-align:center;">Heritage Furniture is a trade website. In order to get access please register your details below.</p>
+        &nbsp
+        <div class="trams-conditions">
+            <div class="exist_cust">
+                <a href="#" id="toggle4" class="plus-icon">If you already existing customer, Click here to login.</a>
+            </div>
+            <div class="trams-con">
+                <form class="createAccount login-Form" name="frmRLogin" id="loginForm1" action="" method="post" >
+                    <div class="row">
+                        <label>Email<span>*</span></label>
+                        <input type="text" name="RemailId" id="RemailId" value="" placeholder="Email">
+                    </div>
+                    <div class="row">
+                        <label>Password<span>*</span></label>
+                        <input type="password" name="Rusrpassword" id="Rusrpassword" value="" placeholder="Password">
+                    </div>
+                    <div class="row submitBtn">
+                        <input type="submit" name="btnSubmit" value="Login" class="searchBtn">
+                    </div>
+                    <p><a href="{{ forgot_password }}" class="forgot">Forgot Password?</a></p>
+                </form>
+            </div>
+        </div>
+        <script src="js/min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('#toggle4').click(function() {
+                $('.trams-con').slideToggle('fast');
+                if ($(this).hasClass('mins-icon')) {
+                    $(this).removeClass('mins-icon').addClass('plus-icon');
+                } else {
+                    $(this).addClass('mins-icon');
+                }
+                return false;
+            });
+        </script>
+        <script type="text/javascript">
+            var r={'special':/[\W]/g};
+            function nospace(o,w,event)
+            {
+                if((event.keyCode == 32)){
+                    o.value = o.value.replace(r[w],'');
+                }
+            }
+        </script>
+        <script type="text/javascript" src="js/cart.js"></script>
+        
+        <form class="createAccount" name="frmRegister" id="frmRegister" action="" method="post">
+            <!--   <div>
+        <span class="heading">Buyer contact information </span>
+      </div>-->
+            <div class="row" style="display:none">
+                <label>Title<span>*</span></label>
+                <select name="SelTitle" id="SelTitle" class="textbox" >
+                    <option value="Mr" Selected>Mr</option>
+                    <option value="Mrs" >Mrs</option>
+                    <option value="Miss" >Miss</option>
+                    <option value="Ms" >Ms</option>
+                </select>
+            </div>
+            
+            <!--  <div class="row">
+               <label>Email<span>*</span></label>
+                <input name="email" type="text" value=""/>
+             </div> -->
+            
+            <div class="row">
+                <label>First Name<span>*</span></label>
+                <input name="firstName" type="text" value="" maxlength="50"/></td>
+            </div>
+            <div class="row">
+                <label>Last Name <span>*</span></label>
+                <input name="lastName" type="text" value="" maxlength="50" />
+            </div>
+            
+            <div class="row">
+                <label>Email<span>*</span></label>
+                <input name="email" type="text" value=""/>
+            </div>
+            <div class="row">
+                <label>Telephone Number</label>
+                <input name="phone"  type="text" value="" maxlength="20">
+            </div>
+            <!--  <div class="row">
+               <label>Confirm Email<span>*</span></label>
+                <input name="confirmemail" type="text" value=""/>
+             </div> -->
+            <div class="row">
+                <label>Password<span>*</span></label>
+                <input name="password" type="password" value=""/>
+            </div>
+            <div class="row">
+                <label>Re-Enter Password<span>*</span></label>
+                <input name="confirmPassword" type="password" value=""/>
+            </div>
+            <!--19dec-->
+            <div class="third-row">
+                <div class="doyouselltitle">I curently sell heritage products</div>
+                <!-- <span><img src="images/cross_mark.jpg" alt="cross"></span>
+                <input name="chkSell"  type="checkbox" id="chkSell" value="Y">   -->
+            
+            
+            </div>
+            
+            <div class="third-row">
+                <div class="doyouselltitle">I am interested in stocking heritage products</div>
+                <!-- <span><img src="images/cross_mark.jpg" alt="cross"></span>
+                <input name="chkSell"  type="checkbox" id="chkSell" value="Y">   -->
+            
+            
+            
+            
+            </div>
+            
+            <div class="third-row">
+                <div class="doyouselltitle">I am an end consumer</div>
+                <!-- <span><img src="images/cross_mark.jpg" alt="cross"></span>
+                <input name="chkSell"  type="checkbox" id="chkSell" value="Y">   -->
+            
+            
+            
+            
+            </div>
+            
+            <div class="third-row">
+                
+                <div class="registerinpute">
+                    <input type="checkbox" name="chkSell" value="Y" class="check-cross-mark">
+                    <!-- <input type="radio" name="chkSell" value="Y"  class="check-tick-mark" >  --></div>
+            
+            </div>
+            
+            <div class="third-row">
+                
+                <div class="registerinpute">
+                    <input type="checkbox" name="chkSell" value="Y2" class="check-cross-mark">
+                    <!-- <input type="radio" name="chkSell" value="Y"  class="check-tick-mark" >  --></div>
+            
+            </div>
+            
+            <div class="third-row">
+                
+                <div class="registerinpute">
+                    <input type="checkbox" name="chkSell" value="Y3" class="check-cross-mark">
+                    <!-- <input type="radio" name="chkSell" value="Y"  class="check-tick-mark" >  --></div>
+            
+            
+            </div>
+            
+            <div class="row full-row">
+                <div class="company-container" style="display:none;">
+                    <label>Company <span>*</span></label>
+                    <input type="text" name="CompanyName" type="text" value="">
+                </div>
+            </div>
+            
+            <div class="full-row">
+                <input type="checkbox" name="chkPrivPol" id="chkPrivPol" class="check-cross-mark" value="Y" style="float:right">
+                <p style="text-align:left;">Your details are important to us and we ensure to keep you data completely safe. <br> Please confirm you have read our <a href="{{ privacy_policy }}">privacy policy</a>.</p>
+            </div>
+            
+            <div class="full-row">
+                <input type="checkbox" name="chkEmail" id="chkEmail" class="check-cross-mark" value="Y" style="float:right;">    <p style="text-align:left;">Get up-to-date information, offers, and promotions from Heritage. <br> You can unsubscribe anytime.</p>
+            </div>
+            
+            <script>
+                $(document).ready(function() {
+
+                    $("input[name='chkSell']").click(function(){
+                        $("input[name='chkSell']").not(this).prop('checked', false);
+                        $("input[name='chkSell']").removeClass("check-tick-mark").addClass("check-cross-mark");
+
+                        var radioValue = $("input[name='chkSell']:checked").val();
+                        if(radioValue == "Y" || radioValue == "Y2" || radioValue == "Y3"){
+                            $(this).removeClass("check-cross-mark").addClass("check-tick-mark");
+                        }
+                        else
+                        {
+                            $(this).removeClass("check-tick-mark").addClass("check-cross-mark");
+                        }
+
+                        if(radioValue == "Y" || radioValue == "Y2") {
+                            $('.company-container').show();
+                        }
+                        else {
+                            $('.company-container').hide();
+                        }
+
+                    });
+                    $("input[name='chkEmail']").click(function(){
+                        var radioValue = $("input[name='chkEmail']:checked").val();
+                        if(radioValue == "Y"){
+                            $(this).removeClass("check-cross-mark").addClass("check-tick-mark");
+                        }
+                        else
+                        {
+                            $(this).removeClass("check-tick-mark").addClass("check-cross-mark");
+                        }
+                    });
+                    $("input[name='chkPrivPol']").click(function(){
+                        var radioValue = $("input[name='chkPrivPol']:checked").val();
+                        if(radioValue == "Y"){
+                            $(this).removeClass("check-cross-mark").addClass("check-tick-mark");
+                        }
+                        else
+                        {
+                            $(this).removeClass("check-tick-mark").addClass("check-cross-mark");
+                        }
+                    });
+
+                });
+            </script>
+            
+            <div class="row" style="display:none">
+                <label>Company Type<span>*</span></label>
+                <select name="SelCompanyType" id="SelCompanyType" class="textbox" >
+                    <option value="0">--Please Select--</option>
+                    <option value="Sole Trader" >Sole Trader</option>
+                    <option value="Partnership" >Partnership</option>
+                    <option value="Limited" >Limited</option>
+                </select>
+            </div>
+            
+            <div class="row" style="display:none">
+                <label>Title</label>
+                <select name="selAccTitle" id="selAccTitle" class="textbox">
+                    <option value="Mr" selected>Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms">Ms</option>
+                </select>
+            </div>
+            
+            <div class="row submitBtn">
+                <input name="submit" type="submit" class="searchBtn btnmobile100percent" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
